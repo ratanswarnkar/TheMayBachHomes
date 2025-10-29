@@ -123,6 +123,133 @@ class LovinoController extends Controller
     {
         return view('blog3');
     }
+     public function blogs4()
+    {
+        return view('blog4');
+    }
+     public function blogs5()
+    {
+        return view('blog5');
+    }
+    //method for commercial properties
+    public function commercial_properties(){
+        return view('/commercial/commercials');
+    }
+    public function commercial1(){
+        return view('/commercial/commercials1');
+    }
+     public function commercial2(){
+        return view('/commercial/commercials2');
+    }
+     public function commercial3(){
+        return view('/commercial/commercials3');
+    }
+     public function commercial4(){
+        return view('/commercial/commercials4');
+    }
+     public function commercial5(){
+        return view('/commercial/commercials5');
+    }
+     public function commercial6(){
+        return view('/commercial/commercials6');
+    }
+
+
+    //method for sale properties
+    public function sale_properties(){
+        return view('/sale/sales');
+    }
+    public function sale1_properties(){
+        return view('/sale/sales1');
+    }
+      public function sale2_properties(){
+        return view('/sale/sales2');
+    }
+     public function sale3_properties(){
+        return view('/sale/sales3');
+    }
+      public function sale4_properties(){
+        return view('/sale/sales4');
+    }
+     public function sale5_properties(){
+        return view('/sale/sales5');
+    }
+      public function sale6_properties(){
+        return view('/sale/sales6');
+    }
+
+    //method for apartments properties
+    public function apartments_properties(){
+        return view('/apartment/apartments');
+    }
+    public function apartments1(){
+        return view('/apartment/apartments1');
+    }
+     public function apartments2(){
+        return view('/apartment/apartments2');
+    }
+     public function apartments3(){
+        return view('/apartment/apartments3');
+    }
+     public function apartments4(){
+        return view('/apartment/apartments4');
+    }
+     public function apartments5(){
+        return view('/apartment/apartments5');
+    }
+     public function apartments6(){
+        return view('/apartment/apartments6');
+    }
+
+    
+//method for rent properties
+public function rent_properties(){
+    return view('/rent/rents');
+}
+public function rent1(){
+    return view('/rent/rents1');
+}
+public function rent2(){
+    return view('/rent/rents2');
+}
+public function rent3(){
+    return view('/rent/rents3');
+}
+public function rent4(){
+    return view('/rent/rents4');
+}
+public function rent5(){
+    return view('/rent/rents5');
+}
+public function rent6(){
+    return view('/rent/rents6');
 }
 
 
+//method for offplan properties
+public function offplan_properties(){
+    return view('/offplan/offplans');
+}
+public function offplan1(){
+    return view('/offplan/offplans1');
+}
+public function offplan2(){
+    return view('/offplan/offplans2');
+}
+public function offplan3(){
+    return view('/offplan/offplans3');
+}
+public function offplan4(){
+    return view('/offplan/offplans4');
+}
+public function offplan5(){
+    return view('/offplan/offplans5');
+}
+public function offplan6(){
+    return view('/offplan/offplans6');
+}
+
+}
+
+
+    

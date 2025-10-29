@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-lg-5">
             <div class="footer-widget mb-4 mb-lg-5">
-              <a class="footer-logo" href="#"><img class="mb40" src="uploads/logo.jpg" alt="" /></a>
+              <a class="footer-logo" href="#"><img class="mb40" src="uploads/laga.png" alt="" /></a>
               <div class="row mb-4 mb-lg-5">
                 
                 <div class="col-auto">

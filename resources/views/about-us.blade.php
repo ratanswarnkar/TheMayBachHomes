@@ -132,7 +132,7 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
     <div class="managers">
       <div class="member">
         <img src="images/hr.png" alt="HR">
-        <h3>Ms. Sakshi Sharma</h3>
+        <h3>Ms. Sakshi Kushwaha</h3>
         <p>Human Resources</p>
       </div>
       <div class="member">

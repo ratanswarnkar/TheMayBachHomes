@@ -1,93 +1,126 @@
 @include('user_layout.header');
 <style>
-  .search-section {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 12px;
-  padding: 25px;
-  width: 90%;
-  max-width: 1000px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  z-index: 99;
+ 
+/* ========== FIX VIDEO BACKGROUND VISIBILITY ========== */
+.home-style1 {
+  position: relative;
+  overflow: hidden;
 }
 
-/* Tabs */
-.tabs {
-  display: flex;
-  justify-content: flex-start;
-  border-bottom: 1px solid #ddd;
-  background: #fff;
-  border-radius: 10px 10px 0 0;
+.home-screen__step-1__bg__video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
-.tab {
-  padding: 12px 24px;
-  cursor: pointer;
-  font-weight: 600;
-  color: #555;
-  border-bottom: 3px solid transparent;
-  transition: all 0.3s ease;
+/* ✅ Semi-transparent dark overlay to make text visible */
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.55); */
+  z-index: 1;
 }
 
-.tab.active {
-  border-color: #000;
-  color: #000;
-}
-
-/* Filters */
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.dropdown {
-  padding: 12px 16px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  background: #f9f9f9;
-  font-size: 15px;
-  min-width: 200px;
-}
-
-.search-btn {
-  background: #000;
+/* Ensure text and buttons stay above video */
+.inner-banner-style1,
+.center-box {
+  position: relative;
+  z-index: 2;
   color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 12px 25px;
-  cursor: pointer;
+}
+
+/* Heading Styling */
+.box-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.box-heading::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.55);
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+/* Button Grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 14px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
 }
 
-.search-btn:hover {
-  background: #333;
+.btn-link:hover {
+  background: #f4b400;
+  color: #000;
+  transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
-  .filters {
-    flex-direction: column;
-    align-items: center;
-  }
+/* Scroll Icon */
+.mouse_scroll {
+  margin-top: 50px;
+  animation: bounce 2s infinite;
+}
 
-  .dropdown, .search-btn {
-    width: 100%;
-  }
+.mouse_scroll img {
+  width: 40px;
+  height: auto;
+}
 
-  .search-section {
-    top: 60%;
-    padding: 20px;
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-10px); }
+  60% { transform: translateY(-5px); }
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  .button-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 576px) {
+  .button-grid {
+   
+  }
+
+  .box-heading {
+    font-size: 26px;
+  }
+}
+
+
 
   </style>
  
@@ -101,7 +134,7 @@
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="menubar" href="#menu"><img src="uploads/mobile-dark-nav-icon.svg" alt="" /></a>
-            <a class="mobile_logo" href="index.php"><img src="uploads/laga.png" alt="" /></a>
+            <a class="mobile_logo" href="{{ asset('home')}}"><img src="uploads/laga.png" alt="" /></a>
        <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
         </div>
       </div>
@@ -118,54 +151,37 @@
     <section class="home-banner-style1 p0">
 	
       <div class="home-style1">
-	  <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="" style="position: fixed;left: 0;bottom: 0;width: auto;">
+	  <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="">
         <source src="uploads/LovinoRealEstate.mp4" type="video/mp4" />
       </video>
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-11 mx-auto">
-              <div class="inner-banner-style1 text-center" style="z-index:99;">
-                <!-- ✅ Search Section -->
-<form action="{{ asset('projects')}}" method="GET">
-  <div class="search-section">
-    <!-- Tabs -->
-    <div class="tabs">
-      <div class="tab active">Projects</div>
-      <div class="tab">Sale</div>
-      <div class="tab">Rent</div>
-    </div>
+        <!-- ✅ Add overlay below -->
+  <div class="video-overlay"></div>
 
-    <!-- Filters -->
-    <div class="filters">
-      <select name="propertyType" class="dropdown">
-        <option value="">Property Type</option>
-        <option value="residential">Residential</option>
-        <option value="commercial">Commercial</option>
-        <option value="plot">Plot</option>
-      </select>
-
-      <select name="city" class="dropdown">
-        <option value="">Select City</option>
-        <option value="delhi">Delhi</option>
-        <option value="mumbai">Mumbai</option>
-        <option value="jaipur">Jaipur</option>
-        <option value="chennai">Chennai</option>
-      </select>
-
-      <select name="project" class="dropdown">
-        <option value="">Available Projects</option>
-        <option value="luxury-villas">Luxury Villas</option>
-        <option value="affordable-homes">Affordable Homes</option>
-        <option value="smart-apartments">Smart Apartments</option>
-      </select>
-
-      <button type="submit" class="search-btn">🔍 Search</button>
-    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-11 mx-auto">
+        <div class="inner-banner-style1 text-center" style="z-index:99;">
+  <h2 class="box-heading">OUR PROPERTIES</h2>
+  <div class="button-grid">
+    <a href="{{ asset('/commercial-properties') }}" class="btn-link">COMMERCIAL</a>
+    <a href="{{ asset('/sale-properties') }}" class="btn-link">RE-SALE</a>
+    <a href="{{ asset('/rent-properties') }}" class="btn-link">RENT</a>
+    <a href="{{ asset('/offplan-properties') }}" class="btn-link">OFFPLAN</a>
+    <a href="{{ asset('/apartments-properties') }}" class="btn-link">APARTMENT</a>
+    <a href="{{ asset('/office') }}" class="btn-link">OFFICE</a>
+    <a href="{{ asset('/villa') }}" class="btn-link">VILLA</a>
+    <a href="{{ asset('/super-delux-property') }}" class="btn-link">SUPER DELUX PROPERTY</a>
   </div>
-</form>
+</div>
 
-                <h6 class="hero-sub-title animate-up-1"> </h6>
-                <h2 class="hero-title animate-up-2">Invest In Your Dreams</h2>
+<a href="#explore-property">
+  <div class="mouse_scroll animate-up-4">
+    <img src="{{ asset('uploads/home-scroll.png') }}" alt="" />
+  </div>
+</a>
+
+              
+
                 
      
         <a href="#explore-property">
@@ -227,7 +243,7 @@
                   <div class="iconbox-style1" style="background-image: url(uploads/Townhouse.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon5.png" /></span>
                     <div class="iconbox-content">
-                      <h6 class="title">Townhouse</h6>
+                      <h6 class="title">SUPER DELUX PROPERTY</h6>
                                             <p class="text mb-0">Click Here</p>
                                           </div>
                   </div>
@@ -1113,7 +1129,7 @@
                   <div class="testimonial-content">
                     <h5 class="title"> </h5>
                     <span class="icon fa fa-quote-left"></span>
-                    <p>I had an incredible experience working Lovino Real Estate. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
+                    <p>I had an incredible experience working The MayBach Homes Property Group. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
@@ -1218,7 +1234,7 @@
                   <div class="testimonial-content">
                     <h5 class="title"> </h5>
                     <span class="icon fa fa-quote-left"></span>
-                    <p>I had an incredible experience working Lovino Real Estate. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
+                    <p>I had an incredible experience working The MayBach Homes Property Group. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
                       <a class="me-1" href=""><i class="fa fa-star"></i></a>
@@ -1304,7 +1320,7 @@
     <div class="managers">
       <div class="member">
         <img src="images/hr.png" alt="HR">
-        <h3>Ms. Sakshi Sharma</h3>
+        <h3>Ms. Sakshi Kushwaha</h3>
         <p>Human Resources</p>
       </div>
       <div class="member">

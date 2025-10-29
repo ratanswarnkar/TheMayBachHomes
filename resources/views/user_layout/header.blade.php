@@ -171,7 +171,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     <div class="container">
       <!-- Logo -->
       <a class="navbar-brand d-flex align-items-center" href="{{ asset('/') }}">
-        <img src="uploads/laga.png" alt="Logo" height="50" class="me-2" style="height:89px;">
+        <img src="uploads/laga.png" alt="Logo" height="50" class="me-2" style="height:95px;" style="width:30px;">
       </a>
 
       <!-- Mobile Toggle -->
