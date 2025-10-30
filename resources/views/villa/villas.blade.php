@@ -358,7 +358,8 @@
           <div class="col-xl-12">
             <div class="mt30">
               <div class="text-center text-xl-start">
-                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Properties for Sale</h4>                
+                <br>
+                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Villa for Sale</h4>                
               </div>
                
                
@@ -367,24 +368,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=237&title=Maya 1BHK"><img class="w-100" src="agentCP/../agentCP/uploads/dbaa9e7eeab72969466d2e2682d87f46Maya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  607,234 </div>
+                      <a href="{{ asset('/villa1-properties')}}"><img class="w-100" src="uploads/villa1.jpg" alt=""></a>
+					  <div class="list-price">INR 9.48 Cr</div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=237&title=Maya 1BHK">Maya 1BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/villa1-properties')}}">5 BHK For Sale in Jaypee Greens Kingswood Oriental</a></h6>
+                      <p class="list-text">Sector 128, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-bed"></span>1 bed</a>
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-shower"></span>1 bath</a>
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-object-ungroup"></span>768.65 - 814.72  Sqft sqft</a>
+                        <!-- <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-bed"></span>1 bed</a>
+                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-shower"></span>1 bath</a> -->
+                        <a href="{{ asset('/villa1-properties')}}"><span class="fa fa-object-ungroup"></span>  5350 sq.mt.</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=237&title=Maya 1BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/villa1-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -395,24 +396,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=238&title=Maya 2BHK"><img class="w-100" src="agentCP/../agentCP/uploads/b35a43ac9bcb08f6cf0e1493f9c9234eMaya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  997 </div>
+                      <a href="{{ asset('/villa2-properties')}}"><img class="w-100" src="uploads/villa1d.jpg" alt=""></a>
+					   <div class="list-price">INR 8.33 Cr</div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=238&title=Maya 2BHK">Maya 2BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/villa2-properties')}}">5 BHK For Sale in Jaypee Greens Kingswood Oriental</a></h6>
+                      <p class="list-text">Sector 128, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                        <!-- <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a> -->
+                        <a href="{{ asset('/villa2-properties')}}"><span class="fa fa-object-ungroup"></span>4700 sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=238&title=Maya 2BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/villa2-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -423,24 +424,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=239&title=Maya Studio"><img class="w-100" src="agentCP/../agentCP/uploads/2b7ec7d4f80b27aa92a626282caad2c1Maya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  607,234 </div>
+                      <a href="{{ asset('/villa3-properties')}}"><img class="w-100" src="uploads/villa3.jpg" alt=""></a>
+					   <div class="list-price">INR 6.80 Cr</div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=239&title=Maya Studio">Maya Studio</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/villa3-properties')}}">5 BHK For Sale</a></h6>
+                      <p class="list-text">Sector 33, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-bed"></span>Studio bed</a>
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-shower"></span>1 bath</a>
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-object-ungroup"></span>496.11 - 535.61 sq.ft  sqft</a>
+                        <!-- <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-bed"></span>Studio bed</a>
+                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-shower"></span>1 bath</a> -->
+                        <a href="{{ asset('/villa3-properties')}}"><span class="fa fa-object-ungroup"></span>3200 sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=239&title=Maya Studio"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/villa3-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -451,24 +452,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&title=Al Zahya"><img class="w-100" src="agentCP/../agentCP/uploads/afb27af6297838a38f34eea4e6168fc5Ajman al zahya.jpg" alt=""></a>
-					   <div class="list-price">AED  1,300,000 </div>
+                      <a href="{{ asset('/villa4-properties')}}"><img class="w-100" src="uploads/villa4.jpg" alt=""></a>
+					   <div class="list-price">INR 4.98 Cr </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=249&title=Al Zahya">Al Zahya</a></h6>
-                      <p class="list-text">Ajman</p>
+                      <h6 class="list-title"><a href="{{ asset('/villa4-properties')}}">6 BHK For Sale</a></h6>
+                      <p class="list-text">Sector 41 Block F, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
+                        <!-- <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/villa4-properties')}}"><span class="fa fa-object-ungroup"></span>180 sqm</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=249&title=Al Zahya"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/villa4-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -479,24 +480,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&title=Al Yasmeen Villa"><img class="w-100" src="agentCP/../agentCP/uploads/daeb6cf2a7efec6845c7a92391f6ca47Al yasmeen.jpg" alt=""></a>
-					   <div class="list-price">AED  1,330,000 </div>
+                      <a href="{{ asset('/villa5-properties')}}"><img class="w-100" src="uploads/villa5.jpg" alt=""></a>
+					   <div class="list-price">INR  9.50 Cr </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=250&title=Al Yasmeen Villa">Al Yasmeen Villa</a></h6>
-                      <p class="list-text">Ajman</p>
+                      <h6 class="list-title"><a href="{{ asset('/villa5-properties')}}">9 BHK For Sale</a></h6>
+                      <p class="list-text">Sector 46, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
+                        <!-- <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/villa5-properties')}}"><span class="fa fa-object-ungroup"></span>11,000 sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="for-what">For Sale</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=250&title=Al Yasmeen Villa"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/villa5-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -504,7 +505,33 @@
                 </div>		
 				
 						
-				 
+				  <div class="col-sm-4">
+                  <div class="listing-style1 salessection">
+                    <div class="list-thumb">
+                      <a href="{{ asset('/villa6-properties')}}"><img class="w-100" src="uploads/villa6.jpg" alt=""></a>
+					   <div class="list-price">INR 27.0 Cr</div>
+	                   
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('/villa6-properties')}}">6 BHK For Sale </a></h6>
+                      <p class="list-text">Sector 44 Block F, Noida</p>
+                      <div class="list-meta d-flex align-items-center">
+                        <!-- <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/villa6-properties')}}"><span class="fa fa-object-ungroup"></span>2906 sqft</a>
+                      </div>
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="for-what">For Sale</span>
+                        <div class="icons d-flex align-items-center">
+                          
+                         <span class="project-type"><a href="{{ asset('/villa6-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
+				
 			 
 				
 				

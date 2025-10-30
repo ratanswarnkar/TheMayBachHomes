@@ -298,7 +298,7 @@
                 <div class="widget-wrapper">
                   
                     <select data-size="5" name="min_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker bs-select-hidden houzez-field-textual form-control elementor-size-sm">
-                <option value="">Min. Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
+                <option value="">Min. Price</option><option value="any">Any</option><option value="5000">INR 5,000</option><option value="10000">INR 10,000</option><option value="50000">INR 50,000</option><option value="100000">INR 100,000</option><option value="200000">INR 200,000</option><option value="300000">INR 300,000</option><option value="400000">INR 400,000</option><option value="500000">INR 500,000</option><option value="600000">INR 600,000</option><option value="700000">INR 700,000</option><option value="800000">INR 800,000</option><option value="900000">INR 900,000</option><option value="1000000">INR 1,000,000</option><option value="1500000">INR1,500,000</option><option value="2000000">INR 2,000,000</option><option value="2500000">INR 2,500,000</option><option value="5000000">INR 5,000,000</option><option value="10000000">INR 10,000,000</option>
             </select>
                    
                 </div>
@@ -307,7 +307,7 @@
                 <div class="widget-wrapper">
                   
                      <select data-size="5" name="max_price" id="form-field-field-max-price" data-live-search="true" class="selectpicker bs-select-hidden houzez-field-textual form-control elementor-size-sm">
-                <option value="">Max Price</option><option value="any">Any</option><option value="5000">AED 5,000</option><option value="10000">AED 10,000</option><option value="50000">AED 50,000</option><option value="100000">AED 100,000</option><option value="200000">AED 200,000</option><option value="300000">AED 300,000</option><option value="400000">AED 400,000</option><option value="500000">AED 500,000</option><option value="600000">AED 600,000</option><option value="700000">AED 700,000</option><option value="800000">AED 800,000</option><option value="900000">AED 900,000</option><option value="1000000">AED 1,000,000</option><option value="1500000">AED1,500,000</option><option value="2000000">AED 2,000,000</option><option value="2500000">AED 2,500,000</option><option value="5000000">AED 5,000,000</option><option value="10000000">AED 10,000,000</option>
+                <option value="">Max Price</option><option value="any">Any</option><option value="5000">INR 5,000</option><option value="10000">INR 10,000</option><option value="50000">INR 50,000</option><option value="100000">INR 100,000</option><option value="200000">INR 200,000</option><option value="300000">INR 300,000</option><option value="400000">INR 400,000</option><option value="500000">INR 500,000</option><option value="600000">INR 600,000</option><option value="700000">INR 700,000</option><option value="800000">INR 800,000</option><option value="900000">INR 900,000</option><option value="1000000">INR 1,000,000</option><option value="1500000">INR1,500,000</option><option value="2000000">INR 2,000,000</option><option value="2500000">INR 2,500,000</option><option value="5000000">INR 5,000,000</option><option value="10000000">INR 10,000,000</option>
             </select><!-- selectpicker -->
                 </div>
               </div>
@@ -358,33 +358,34 @@
           <div class="col-xl-12">
             <div class="mt30">
               <div class="text-center text-xl-start">
-                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Properties for Sale</h4>                
+                <br>
+                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">OFFICES For Rent</h4>                
               </div>
-               
-               
-               <div class="row">
-                 	
+            
+          
+            <div class="row">
+              
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=237&title=Maya 1BHK"><img class="w-100" src="agentCP/../agentCP/uploads/dbaa9e7eeab72969466d2e2682d87f46Maya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  607,234 </div>
+                      <a href="{{ asset('/office1-properties')}}"><img class="w-100" src="uploads/office1.jpg" alt=""></a>
+					   <div class="list-price">INR 45,000 per month </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=237&title=Maya 1BHK">Maya 1BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/office1-properties')}}"> Commercial Office Space For Rent</a></h6>
+                      <p class="list-text"> Sector 3 Block A, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-bed"></span>1 bed</a>
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-shower"></span>1 bath</a>
-                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-object-ungroup"></span>768.65 - 814.72  Sqft sqft</a>
+                        <!-- <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-bed"></span>1 bed</a>
+                        <a href="property.php?id=237&title=Maya 1BHK"><span class="fa fa-shower"></span>1 bath</a> -->
+                        <a href="{{ asset('/office1-properties')}}"><span class="fa fa-object-ungroup"></span>800 Sqft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
+                        <span class="for-what">For Rent</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=237&title=Maya 1BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/office1-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -395,24 +396,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=238&title=Maya 2BHK"><img class="w-100" src="agentCP/../agentCP/uploads/b35a43ac9bcb08f6cf0e1493f9c9234eMaya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  997 </div>
+                      <a href="{{ asset('/office2-properties')}}"><img class="w-100" src="uploads/office2.jpg" alt=""></a>
+					   <div class="list-price">INR 57,000</div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=238&title=Maya 2BHK">Maya 2BHK</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/office2-properties')}}"> Commercial Office Space For Rent in Assotech Business Cresterra</a></h6>
+                      <p class="list-text">Sector 135, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a>
-                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-object-ungroup"></span>1262.71 - 1291.88  sq.ft sqft</a>
+                        <!-- <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-bed"></span>2 bed</a>
+                        <a href="property.php?id=238&title=Maya 2BHK"><span class="fa fa-shower"></span>2 bath</a> -->
+                        <a href="{{ asset('/office2-properties')}}"><span class="fa fa-object-ungroup"></span>1030 sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
+                        <span class="for-what">For Rent</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=238&title=Maya 2BHK"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/office2-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -423,24 +424,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=239&title=Maya Studio"><img class="w-100" src="agentCP/../agentCP/uploads/2b7ec7d4f80b27aa92a626282caad2c1Maya 3.jpg" alt=""></a>
-					   <div class="list-price">AED  607,234 </div>
+                      <a href="{{ asset('/office3-properties')}}"><img class="w-100" src="uploads/office3.jpg" alt=""></a>
+					   <div class="list-price">INR  95,000 </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=239&title=Maya Studio">Maya Studio</a></h6>
-                      <p class="list-text">Dubai land</p>
+                      <h6 class="list-title"><a href="{{ asset('/office3-properties')}}">Commercial Office Space For Rent</a></h6>
+                      <p class="list-text">Sector 63, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-bed"></span>Studio bed</a>
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-shower"></span>1 bath</a>
-                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-object-ungroup"></span>496.11 - 535.61 sq.ft  sqft</a>
+                        <!-- <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-bed"></span>Studio bed</a>
+                        <a href="property.php?id=239&title=Maya Studio"><span class="fa fa-shower"></span>1 bath</a> -->
+                        <a href="{{ asset('/office3-properties')}}"><span class="fa fa-object-ungroup"></span>2100 sq.ft  sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
+                        <span class="for-what">For Rent</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=239&title=Maya Studio"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/office3-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -451,24 +452,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=249&title=Al Zahya"><img class="w-100" src="agentCP/../agentCP/uploads/afb27af6297838a38f34eea4e6168fc5Ajman al zahya.jpg" alt=""></a>
-					   <div class="list-price">AED  1,300,000 </div>
+                      <a href="{{ asset('/office4-properties')}}"><img class="w-100" src="uploads/office4.jpg" alt=""></a>
+					   <div class="list-price">INR 3.5 Lac</div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=249&title=Al Zahya">Al Zahya</a></h6>
-                      <p class="list-text">Ajman</p>
+                      <h6 class="list-title"><a href="{{ asset('/office4-properties')}}">Commercial Office Space For Rent </a></h6>
+                      <p class="list-text">Sector 126, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-object-ungroup"></span>3430 sq.ft sqft</a>
+                        <!-- <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/office4-properties')}}"><span class="fa fa-object-ungroup"></span>5000  sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
+                        <span class="for-what">For Rent</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=249&title=Al Zahya"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/office4-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -479,24 +480,24 @@
                 <div class="col-sm-4">
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
-                      <a href="property.php?id=250&title=Al Yasmeen Villa"><img class="w-100" src="agentCP/../agentCP/uploads/daeb6cf2a7efec6845c7a92391f6ca47Al yasmeen.jpg" alt=""></a>
-					   <div class="list-price">AED  1,330,000 </div>
+                      <a href="{{ asset('/office5-properties')}}"><img class="w-100" src="uploads/office5.jpg" alt=""></a>
+					   <div class="list-price">INR  25.5 L </div>
 	                   
                     </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="property.php?id=250&title=Al Yasmeen Villa">Al Yasmeen Villa</a></h6>
-                      <p class="list-text">Ajman</p>
+                      <h6 class="list-title"><a href="{{ asset('/office5-properties')}}">Commercial Office Space For Rent</a></h6>
+                      <p class="list-text">Sector 136, Noida</p>
                       <div class="list-meta d-flex align-items-center">
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a>
-                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-object-ungroup"></span>3200 sq.ft sqft</a>
+                        <!-- <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/office5-properties')}}"><span class="fa fa-object-ungroup"></span>50,000  sq.ft sqft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="for-what">For Sale</span>
+                        <span class="for-what">For Rent</span>
                         <div class="icons d-flex align-items-center">
                           
-                         <span class="project-type"><a href="property.php?id=250&title=Al Yasmeen Villa"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                         <span class="project-type"><a href="{{ asset('/office5-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
                         </div>
                       </div>
                     </div>
@@ -504,7 +505,32 @@
                 </div>		
 				
 						
-				 
+				  <div class="col-sm-4">
+                  <div class="listing-style1 salessection">
+                    <div class="list-thumb">
+                      <a href="{{ asset('/office6-properties')}}"><img class="w-100" src="uploads/office6.jpg" alt=""></a>
+					   <div class="list-price">INR  50,000 per month </div>
+	                   
+                    </div>
+                    <div class="list-content">
+                      <h6 class="list-title"><a href="{{ asset('/office6-properties')}}">Commercial Office Space For Rent</a></h6>
+                      <p class="list-text">Sector 57 Block C, Noida</p>
+                      <div class="list-meta d-flex align-items-center">
+                        <!-- <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-bed"></span>5 bed</a>
+                        <a href="property.php?id=250&title=Al Yasmeen Villa"><span class="fa fa-shower"></span>7 bath</a> -->
+                        <a href="{{ asset('/office6-properties')}}"><span class="fa fa-object-ungroup"></span>1400  sq.ft sqft</a>
+                      </div>
+                      <hr class="mt-2 mb-2">
+                      <div class="list-meta2 d-flex justify-content-between align-items-center">
+                        <span class="for-what">For Rent</span>
+                        <div class="icons d-flex align-items-center">
+                          
+                         <span class="project-type"><a href="{{ asset('/office6-properties')}}"> View Details <i class="fa fa-long-arrow-right"></i></a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>		
 			 
 				
 				

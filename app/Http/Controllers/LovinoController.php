@@ -249,6 +249,77 @@ public function offplan6(){
     return view('/offplan/offplans6');
 }
 
+//method for office space properties
+public function office_properties(){
+    return view('/office/offices');
+}
+public function office1(){
+    return view('/office/offices1');
+}
+public function office2(){
+    return view('/office/offices2');
+}
+public function office3(){
+    return view('/office/offices3');
+}
+public function office4(){
+    return view('/office/offices4');
+}
+public function office5(){
+    return view('/office/offices5');
+}
+public function office6(){
+    return view('/office/offices6');
+}
+
+
+//method for super properties
+public function super_properties(){
+    return view('/super/supers');
+}
+public function super1(){
+    return view('/super/supers1');
+}
+public function super2(){
+    return view('/super/supers2');
+}
+public function super3(){
+    return view('/super/supers3');
+}
+public function super4(){
+    return view('/super/supers4');
+}
+public function super5(){
+    return view('/super/supers5');
+}
+public function super6(){
+    return view('/super/supers6');
+}
+
+//method for villa properties
+public function villa_properties(){
+    return view('/villa/villas');
+}
+public function villa1(){
+    return view('/villa/villas1');
+}
+public function villa2(){
+    return view('/villa/villas2');
+}
+public function villa3(){
+    return view('/villa/villas3');
+}
+public function villa4(){
+    return view('/villa/villas4');
+}
+public function villa5(){
+    return view('/villa/villas5');
+}
+public function villa6(){
+    return view('/villa/villas6');
+}
+
+
 }
 
 

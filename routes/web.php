@@ -95,6 +95,33 @@ Route::get('/offplan5-properties',[LovinoController::class, 'offplan5']);
 Route::get('/offplan6-properties',[LovinoController::class, 'offplan6']);
 
 
+//routes for office space
+Route::get('/office-properties',[LovinoController::class, 'office_properties']);
+Route::get('/office1-properties',[LovinoController::class, 'office1']);
+Route::get('/office2-properties',[LovinoController::class, 'office2']);
+Route::get('/office3-properties',[LovinoController::class, 'office3']);
+Route::get('/office4-properties',[LovinoController::class, 'office4']);
+Route::get('/office5-properties',[LovinoController::class, 'office5']);
+Route::get('/office6-properties',[LovinoController::class, 'office6']);
+
+//routes for super
+Route::get('/super-properties',[LovinoController::class, 'super_properties']);
+Route::get('/super1-properties',[LovinoController::class, 'super1']);
+Route::get('/super2-properties',[LovinoController::class, 'super2']);
+Route::get('/super3-properties',[LovinoController::class, 'super3']);
+Route::get('/super4-properties',[LovinoController::class, 'super4']);
+Route::get('/super5-properties',[LovinoController::class, 'super5']);
+Route::get('/super6-properties',[LovinoController::class, 'super6']);
+
+//routes for villa
+Route::get('/villa-properties',[LovinoController::class, 'villa_properties']);
+Route::get('/villa1-properties',[LovinoController::class, 'villa1']);
+Route::get('/villa2-properties',[LovinoController::class, 'villa2']);
+Route::get('/villa3-properties',[LovinoController::class, 'villa3']);
+Route::get('/villa4-properties',[LovinoController::class, 'villa4']);
+Route::get('/villa5-properties',[LovinoController::class, 'villa5']);
+Route::get('/villa6-properties',[LovinoController::class, 'villa6']);
+
 
 
 //Admin Routes

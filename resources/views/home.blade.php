@@ -168,9 +168,9 @@
     <a href="{{ asset('/rent-properties') }}" class="btn-link">RENT</a>
     <a href="{{ asset('/offplan-properties') }}" class="btn-link">OFFPLAN</a>
     <a href="{{ asset('/apartments-properties') }}" class="btn-link">APARTMENT</a>
-    <a href="{{ asset('/office') }}" class="btn-link">OFFICE</a>
-    <a href="{{ asset('/villa') }}" class="btn-link">VILLA</a>
-    <a href="{{ asset('/super-delux-property') }}" class="btn-link">SUPER DELUX PROPERTY</a>
+    <a href="{{ asset('/office-properties') }}" class="btn-link">OFFICE</a>
+    <a href="{{ asset('/villa-properties') }}" class="btn-link">VILLA</a>
+    <a href="{{ asset('/super-properties') }}" class="btn-link">SUPER DELUX PROPERTY</a>
   </div>
 </div>
 
