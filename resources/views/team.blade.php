@@ -55,7 +55,7 @@
       <div class="member">
         <img src="images/client_manager1.jpeg" alt="Designer">
         <h3>Anshika Sharma</h3>
-        <p>Client Manager</p>
+        <p>Client Relationship Manager</p>
       </div>
     </div>
   </div>

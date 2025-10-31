@@ -261,258 +261,301 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     </div>
   </div>
 
-  <!-- 🟡 Floating Chatbot -->
-<div class="chatbot-wrapper">
-  <!-- Floating Button -->
-  <!-- Floating Button -->
-<div class="chatbot-float" onclick="toggleChat()">
-  <img src="uploads/love-cute.webp" alt="Chatbot Greeting" class="chatbot-gif">
-  <span class="chat-text">Hi, we’re here!</span>
-</div>
+<!-- 🌟 Floating Chatbot for Maybach Homes -->
+<style>
+  #chatbot-button {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    padding: 0;
+    z-index: 9999;
+  }
 
+  #chatbot-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+  }
 
-  <!-- Chat Window -->
-  <div class="chatbot-container" id="chatbot">
-    <div class="chatbot-header" onclick="toggleChat()">
-      🤖 Maybach Homes Chat
-    </div>
-    <div class="chatbot-body" id="chatBody">
-      <div class="chatbot-messages" id="chatMessages"></div>
-      <div class="chatbot-input">
-        <input type="text" id="userInput" placeholder="Type your answer..." onkeydown="if(event.key==='Enter') sendMessage()" />
-        <button onclick="sendMessage()">Send</button>
-      </div>
-    </div>
+  #chatbot-button img:hover {
+    transform: scale(1.1);
+  }
+
+  #chatbot-window {
+    position: fixed;
+    bottom: 110px;
+    left: 25px;
+    width: 340px;
+    max-height: 500px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 9999;
+  }
+
+  #chatbot-header {
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+  }
+
+  .bot-msg,
+  .user-msg {
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    max-width: 80%;
+    line-height: 1.4;
+  }
+
+  .bot-msg {
+    background: #f2f2f2;
+    align-self: flex-start;
+  }
+
+  .user-msg {
+    background: #000;
+    color: #fff;
+    align-self: flex-end;
+  }
+
+  #chatbot-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+  }
+
+  #chatbot-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+  }
+
+  #chatbot-input button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  #chatbot-input button:hover {
+    background: #333;
+  }
+</style>
+
+<!-- 💬 Floating GIF Button -->
+<button id="chatbot-button">
+  <img src="uploads/112.gif" alt="Chatbot Assistant">
+</button>
+<!-- Replace “your-chatbot.gif” with your actual .gif path -->
+
+<!-- Chatbot Window -->
+<div id="chatbot-window">
+  <div id="chatbot-header">Maybach Homes Assistant</div>
+  <div id="chatbot-messages"></div>
+  <div id="chatbot-input">
+    <input type="text" id="user-input" placeholder="Type your message..." />
+    <button id="send-btn">Send</button>
   </div>
 </div>
 
-<style>
- 
-  .chatbot-gif {
-  width: 90px;
-  height: 90px;
-  border-radius: 100%;
-  object-fit: cover;
-  animation: floatIcon 3s ease-in-out infinite;
-}
-
-/* =============== Floating Icon =============== */
-.chatbot-wrapper {
-  position: fixed;
-  bottom: 25px;
-  left: 25px;
-  z-index: 9999;
-  font-family: "Poppins", sans-serif;
-}
-
-/* Floating circle */
-.chatbot-float {
-  background-color: #d4af37;
-  color: #000;
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  cursor: pointer;
-  position: relative;
-  transition: all 0.3s ease;
-  animation: floatIcon 3s ease-in-out infinite;
-}
-
-@keyframes floatIcon {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
-}
-
-/* Greeting text bubble */
-.chat-text {
-  position: absolute;
-  left: 80px;
-  background: #fff;
-  color: #000;
-  border: 2px solid #d4af37;
-  border-radius: 20px;
-  padding: 6px 12px;
-  font-size: 13px;
-  font-weight: 500;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  white-space: nowrap;
-  animation: floatMsg 2s infinite ease-in-out;
-}
-
-@keyframes floatMsg {
-  0%,100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
-}
-
-/* Waving animation */
-.wave {
-  display: inline-block;
-  transform-origin: 70% 70%;
-  animation: waveHand 2s infinite;
-}
-
-@keyframes waveHand {
-  0%, 60%, 100% { transform: rotate(0deg); }
-  10%, 30%, 50% { transform: rotate(20deg); }
-  20%, 40% { transform: rotate(-10deg); }
-}
-
-/* Hover effect */
-.chatbot-float:hover {
-  background-color: #c19e2f;
-  transform: scale(1.05);
-}
-
-/* =============== Chat Window =============== */
-.chatbot-container {
-  display: none;
-  position: fixed;
-  bottom: 100px;
-  left: 25px;
-  width: 320px;
-  background: #fff;
-  border: 2px solid #d4af37;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-
-.chatbot-header {
-  background-color: #d4af37;
-  color: #000;
-  font-weight: 600;
-  padding: 10px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.chatbot-body {
-  max-height: 450px;
-  display: flex;
-  flex-direction: column;
-}
-
-.chatbot-messages {
-  flex: 1;
-  overflow-y: auto;
-  padding: 10px;
-}
-
-.chatbot-input {
-  display: flex;
-  border-top: 1px solid #eee;
-}
-
-.chatbot-input input {
-  flex: 1;
-  border: none;
-  padding: 10px;
-  outline: none;
-  font-size: 14px;
-}
-
-.chatbot-input button {
-  background-color: #d4af37;
-  color: #000;
-  border: none;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-/* Messages */
-.bot-message, .user-message {
-  margin: 8px 0;
-  padding: 10px 14px;
-  border-radius: 10px;
-  max-width: 85%;
-}
-
-.bot-message {
-  background: #f4f4f4;
-  align-self: flex-start;
-}
-
-.user-message {
-  background: #d4af37;
-  color: #000;
-  align-self: flex-end;
-  margin-left: auto;
-}
-</style>
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
-/* 🧠 Chatbot Questions */
-const questions = [
-  "👋 Hi there! Welcome to Maybach Homes Property Group — India’s trusted name in luxury real estate. Can I help you find your dream property today?",
-  "🏢 What type of property are you interested in? (Residential Apartment / Villa / Commercial / Plot)",
-  "📍 Which location or city are you looking to buy or rent in?",
-  "💰 What is your budget range? (50L–1Cr / 1–3Cr / 3–5Cr / Above 5Cr)",
-  "📊 Are you looking to buy, rent, or invest?",
-  "🗓️ When do you plan to make your purchase? (Immediately / Within 3 months / 3–6 months / After 6 months)",
-  "🏦 Do you need home loan assistance or financial guidance? (Yes / No)",
-  "📞 Can I have your contact details to connect with a property advisor? (Name, Email, Phone)",
-  "📢 Would you like to receive details about upcoming luxury projects or investment offers?",
-  "📆 Would you like to schedule a free consultation call with our real estate expert?"
-];
+  const chatbotButton = document.getElementById('chatbot-button');
+  const chatbotWindow = document.getElementById('chatbot-window');
+  const messagesDiv = document.getElementById('chatbot-messages');
+  const userInput = document.getElementById('user-input');
+  const sendBtn = document.getElementById('send-btn');
 
-let currentQuestion = 0;
+  let step = 0;
+  let formData = {};
 
-window.onload = () => {
-  addBotMessage(questions[currentQuestion]);
-};
+  const questions = [
+    "Hi there! 👋 Welcome to Maybach Homes Property Group — India’s trusted name in luxury real estate. Can I help you find your dream property today?",
+    "What type of property are you interested in? (Residential Apartment, Villa/Bungalow, Commercial Property, or Plot/Land)",
+    "Which location or city are you looking in? (Gurgaon, Noida, Delhi, etc.)",
+    "Are you looking to Buy, Rent, or Invest?",
+    "What is your budget range? (₹50L–1Cr, ₹1–3Cr, ₹3–5Cr, ₹5Cr+)",
+    "When do you plan to make your Purchase/Rent? (Immediately, Within 3 months, 3–6 months, After 6 months)",
+    "Do you need home loan assistance or financial guidance? (Yes / No)",
+    "Can I have your contact details to connect with one of our property advisors? (Name, Email, Phone)",
+    "Would you like to receive details about upcoming luxury projects or investment offers? (Yes / No)",
+    "Would you like to schedule a free consultation call with our real estate expert? (Yes / No)"
+  ];
 
-function sendMessage() {
-  const input = document.getElementById("userInput");
-  const msg = input.value.trim();
-  if (!msg) return;
+  const goodbyeMessage = [
+    "Totally fine 😊",
+    "Thank you for visiting Maybach Homes!",
+    "If you ever wish to explore luxury properties or investment options, we’ll be here to help.",
+    "Have a wonderful day! 🌟"
+  ];
 
-  addUserMessage(msg);
-  input.value = "";
+  const botMessage = (text) => {
+    const msg = document.createElement('div');
+    msg.className = 'bot-msg';
+    msg.textContent = text;
+    messagesDiv.appendChild(msg);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  };
 
-  setTimeout(() => {
-    nextQuestion(msg);
-  }, 500);
-}
+  const userMessage = (text) => {
+    const msg = document.createElement('div');
+    msg.className = 'user-msg';
+    msg.textContent = text;
+    messagesDiv.appendChild(msg);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  };
 
-function nextQuestion(userMsg) {
-  currentQuestion++;
-  if (currentQuestion < questions.length) {
-    addBotMessage(questions[currentQuestion]);
-  } else {
-    addBotMessage(`🙏 Thank you! Our expert advisor will contact you shortly with the best property options in your range. Meanwhile, feel free to explore our featured projects at <a href="https://www.maybachhomes.com/projects" target="_blank">www.maybachhomes.com/projects</a>.`);
-  }
-}
+  const showGoodbye = () => {
+    goodbyeMessage.forEach((m, i) => setTimeout(() => botMessage(m), i * 700));
+    setTimeout(() => {
+      Swal.fire({
+        icon: "success",
+        title: "Thank you!",
+        text: "Your chat has ended. We appreciate your visit to Maybach Homes!",
+        confirmButtonColor: "#000",
+      });
+      closeChat();
+    }, 3000);
+    disableChat();
+  };
 
-function addBotMessage(text) {
-  const chatMessages = document.getElementById("chatMessages");
-  const msgDiv = document.createElement("div");
-  msgDiv.className = "bot-message";
-  msgDiv.innerHTML = text;
-  chatMessages.appendChild(msgDiv);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
-}
+  const nextQuestion = () => {
+    if (step < questions.length) {
+      botMessage(questions[step]);
+    } else {
+      botMessage(`Thank you, ${formData.name || 'there'}! 🎉 Our expert advisor will contact you shortly with the best property options in Gurgaon, Noida, and Delhi within your budget of ${formData.budget || 'your preferred range'}. Meanwhile, feel free to explore our featured projects at www.maybachhomes.com/projects.`);
+      submitForm();
+      setTimeout(() => {
+        Swal.fire({
+          icon: "success",
+          title: "Thank you!",
+          text: "Your details have been received. Our expert will contact you shortly!",
+          confirmButtonColor: "#000",
+        });
+        closeChat();
+      }, 2500);
+      disableChat();
+    }
+  };
 
-function addUserMessage(text) {
-  const chatMessages = document.getElementById("chatMessages");
-  const msgDiv = document.createElement("div");
-  msgDiv.className = "user-message";
-  msgDiv.innerText = text;
-  chatMessages.appendChild(msgDiv);
-  chatMessages.scrollTop = chatMessages.scrollHeight;
-}
+  const disableChat = () => {
+    userInput.disabled = true;
+    sendBtn.disabled = true;
+  };
 
-function toggleChat() {
-  const chatWindow = document.querySelector(".chatbot-container");
-  chatWindow.style.display = chatWindow.style.display === "block" ? "none" : "block";
-}
+  const closeChat = () => {
+    setTimeout(() => {
+      chatbotWindow.style.display = "none";
+      userInput.disabled = false;
+      sendBtn.disabled = false;
+      userInput.value = "";
+    }, 2000);
+  };
+
+  const submitForm = () => {
+    fetch("https://formspree.io/f/xjkanlqw", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+  };
+
+  // ✅ Smarter negative intent detection
+  const isNegativeIntent = (text) => {
+    const negativePatterns = [
+      /\bno\b/i,
+      /\bnope\b/i,
+      /\bnot now\b/i,
+      /\bnot interested\b/i,
+      /\bdo not\b/i,
+      /\bdon't\b/i,
+      /\bdont\b/i,
+      /\bstop\b/i,
+      /\bcancel\b/i,
+      /\bnot buy\b/i,
+      /\bnot looking\b/i
+    ];
+    return negativePatterns.some((pattern) => pattern.test(text));
+  };
+
+  const handleResponse = (text) => {
+    const response = text.trim();
+
+    // 🧠 Only stop if it's a real negative intent
+    if (isNegativeIntent(response)) {
+      showGoodbye();
+      return;
+    }
+
+    // Save form data
+    switch (step) {
+      case 1: formData.property_type = response; break;
+      case 2: formData.location = response; break;
+      case 3: formData.purpose = response; break;
+      case 4: formData.budget = response; break;
+      case 5: formData.timeline = response; break;
+      case 6: formData.loan_assistance = response; break;
+      case 7:
+        const parts = response.split(',');
+        formData.name = parts[0]?.split(':')[1]?.trim() || parts[0];
+        formData.email = parts[1]?.split(':')[1]?.trim() || '';
+        formData.phone = parts[2]?.split(':')[1]?.trim() || '';
+        break;
+      case 8: formData.updates = response; break;
+      case 9: formData.consultation = response; break;
+    }
+
+    step++;
+    nextQuestion();
+  };
+
+  chatbotButton.onclick = () => {
+    chatbotWindow.style.display = chatbotWindow.style.display === 'flex' ? 'none' : 'flex';
+    chatbotWindow.style.flexDirection = 'column';
+    if (messagesDiv.innerHTML.trim() === "") nextQuestion();
+  };
+
+  sendBtn.onclick = () => {
+    const text = userInput.value.trim();
+    if (text === "") return;
+    userMessage(text);
+    userInput.value = "";
+    handleResponse(text);
+  };
+
+  userInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") sendBtn.click();
+  });
 </script>
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 document.addEventListener('click', function(event) {

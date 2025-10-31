@@ -25,7 +25,7 @@
   width: 100%;
   height: 100%;
   /* background: rgba(0, 0, 0, 0.55); */
-  z-index: 1;
+  z-index: 0;
 }
 
 /* Ensure text and buttons stay above video */
@@ -203,21 +203,24 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <div class="explore-apartment-slider  wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+            <div class="explore-apartment-slider  wow fadeInUp" data-wow-delay="300ms">
                  
               <div class="col-lg-3 item">
-                <a href="{{ asset('projects')}}">
+                <a href="{{ asset('/apartments-properties')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/apartments.jpg);background-size: cover;">
                     <span class="icon"><img src="uploads/icon2.png" /></span>
                     <div class="iconbox-content">
                       <h6 class="title">Apartments</h6>
                                             <p class="text mb-0">Click Here</p> 
+                                            
                                           </div>
                   </div>
-                </a>              </div>
+</a> 
+</div>
+                          
 				   
               <div class="col-lg-3 item">
-                <a href="{{ asset('projects')}}">
+                <a href="{{ asset('/office-properties')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/Offices.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon3.png" /></span>
                     <div class="iconbox-content">
@@ -228,7 +231,7 @@
                 </a>              </div>
 				   
               <div class="col-lg-3 item">
-                <a href="{{ asset('projects')}}">
+                <a href="{{ asset('/villa-properties')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/Villa.jpg);background-size: cover;">
                     <span class="icon"><img src="uploads/icon4.png" /></span>
                     <div class="iconbox-content">
@@ -239,7 +242,7 @@
                 </a>              </div>
 				   
               <div class="col-lg-3 item">
-                <a href="{{ asset('projects')}}">
+                <a href="{{ asset('/super-properties')}}">
                   <div class="iconbox-style1" style="background-image: url(uploads/Townhouse.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon5.png" /></span>
                     <div class="iconbox-content">
@@ -273,7 +276,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Buy a property</h4>
                 <p class="text">Discover your dream home with us - buy a property that suits your needs and desires!</p>
-                <a href="{{ asset('projects')}}" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('/villa-properties')}}" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
@@ -282,7 +285,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Sell a property</h4>
                 <p class="text">Maximize your property's potential - sell with us for a seamless and successful transaction!</p>
-                <a href="{{ asset('sale')}}" class="ud-btn btn-white2">Sell from us<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('/sale-properties')}}" class="ud-btn btn-white2">Sell from us<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
@@ -291,7 +294,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Rent a property</h4>
                 <p class="text">Experience the perfect rental - find your ideal home with us and enjoy the comfort and convenience you deserve!</p>
-                <a href="{{ asset('rent')}}" class="ud-btn btn-white2">Find a rental<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('/rent-properties')}}" class="ud-btn btn-white2">Find a rental<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
         </div>
@@ -320,7 +323,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-08-01</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -343,7 +346,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p2details')}}"> <img class="w-100" src="uploads/p2.png" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-06-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -366,7 +369,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p3details')}}"> <img class="w-100" src="uploads/p3.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2023-09-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -388,8 +391,8 @@
                 </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="{{ asset('p4details')}}"> <img class="w-100" src="uploads/p4.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                    
+                     <a href="{{ asset('p4details')}}"><img class="w-100" src="uploads/p4.webp" alt="" /></a>
+                      <div class="list-price top"></div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -412,7 +415,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p5details')}}"> <img class="w-100" src="uploads/p5.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -435,7 +438,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/p6.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
+                      <div class="list-price top"></div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -458,7 +461,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p7details')}}"> <img class="w-100" src="uploads/p7.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-04-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -481,7 +484,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p8details')}}"> <img class="w-100" src="uploads/p8.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2026-06-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -504,7 +507,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p9details')}}"> <img class="w-100" src="uploads/p9.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2023-09-30</div>                    
+                      <div class="list-price top">Handover: 2028-04-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -1321,7 +1324,7 @@
       <div class="member">
         <img src="images/hr.png" alt="HR">
         <h3>Ms. Sakshi Kushwaha</h3>
-        <p>Human Resources</p>
+        <p>HR Manager</p>
       </div>
       <div class="member">
         <img src="images/manager.png" alt="Manager">
@@ -1353,7 +1356,7 @@
       <div class="member">
         <img src="images/client_manager1.jpeg" alt="Designer">
         <h3>Anshika Sharma</h3>
-        <p>Client Manager</p>
+        <p>Client Relationship Manager</p>
       </div>
     </div>
   </div>
@@ -1537,8 +1540,8 @@
               <div class="cta-style2">
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
-                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
-				<a href="tel: +91-7289898686" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91-7289898686</a> 
+                <a href="{{ asset('/contact')}}" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+				<a href="tel: +91-8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91-8588844441</a> 
               </div>
             </div>
           </div>

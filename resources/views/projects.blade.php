@@ -755,7 +755,7 @@
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
                 <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
-				<a href="tel: 055 225 4741" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>055 225 4741</a> 
+				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
               </div>
             </div>
           </div>

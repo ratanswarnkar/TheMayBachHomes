@@ -1,193 +1,297 @@
-@include('user_layout.header');
- 
-  <div class="hiddenbar-body-ovelay"></div>
+@include('user_layout.header')
 
- 
-  <div id="page" class="mobilie_header_nav stylehome1">
-     
-    <div class="mobile-menu">
-      <div class="header innerpage-style">
-        <div class="menu_and_widgets">
-          <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-            <a class="menubar" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt=""></a>
-            <a class="mobile_logo" href="index.php"><img src="images/logo.png" alt=""></a>
-       <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
-        </div>
+<!-- ================= Hero Section ================= -->
+<section class="career-hero" style="background:#000; padding-top:140px; padding-bottom:60px; color:#fff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h1 class="fw-bold display-5 mb-3" style="color:#b8860b;">Build Your Career With Maybach Homes</h1>
+        <p class="lead" style="color:#f1f1f1; max-width:700px;">
+          Join us on this exciting journey as we shape the future of real estate with innovation, passion, and integrity.
+        </p>
       </div>
     </div>
-    <!-- /.mobile-menu -->
-    <nav id="menu" class="">
-      <ul>
-        <li><a href="index.php">Home</a></li>
-		<li><a href="about-us.php">About Us</a></li>
-        <li><a href="projects.php">Projects</a></li>
-		<li><a href="sale.php">Re-Sale</a></li>
-		<li><a href="rent.php">Rent</a></li>
-		<li><a href="team.php">Team</a></li>
-		<li><a href="career.php">Career</a></li>
-		<li><a href="contact.php">Contact Us</a></li>
-        
-         
-       
-        <!-- Only for Mobile View -->
-      </ul>
-    </nav>
-
-     
   </div>
-    
-  <section class="breadcumb-section2 p-0" style=" background:url(uploads/about_banner.png); background-position:center; background-size: cover;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="breadcumb-style1">
-              <h2 class="title">Career</h2>
-              <p style="font-weight: bold;letter-spacing: 1px;">Join us on this exciting journey as we shape the future of Real Estate</p> 
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Property Half Map V4 -->
-     
-	 <section class="agent-single pt60">
+</section>
+
+<!-- ================= Jobs Intro ================= -->
+<section class="jobs-intro" style="background:#0b0b0b; color:#fff; padding:30px 0;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-2" style="color:#b8860b;">Current Job Openings</h2>
+    <p style="color:#dcdcdc; max-width:900px; margin:auto;">Explore exciting career opportunities at Maybach Homes — join our fast-growing, premium real estate team.</p>
+  </div>
+</section>
+
+<!-- ================= Job 1 ================= -->
+<section class="job-section" style="background:#000; color:#fff; padding:60px 0;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="fw-bold mb-3" style="color:#b8860b;">We’re Hiring | Tele Sales Executive – Real Estate Division</h3>
+        <p><strong>📍 Location:</strong> Maybach Homes India</p>
       
-      <div class="container">
-        <div data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;" class="row">
-          <div class="col-lg-8 pr40 pr20-lg">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
-				 <h6 class="fz17 mb30">Career Opportunities</h6>
-				  <p class="text">
 
-We are always looking for talented professionals with real estate industry experience. currently we have openings in Sales &amp; administration.
-</p>
-<p class="text">
-We would like to encourage talented professionals to apply with relevant experience. Send your CV at <a href="mailto:cv@lovinorealestate.ae">Info@maybach.homes</a>
-</p>
+        <p>At Maybach Homes, we redefine luxury real estate with excellence, integrity, and innovation. Join our dynamic team and be part of a brand where <em>“Luxury Meets Lifestyle.”</em></p>
 
-<h6 class="fz17 mb30">Visit Us</h6>
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22147.496453132222!2d77.42376092946665!3d28.60774970422691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sA%20-1314%2C%20Tower%203%2C%20NX%20ONE%2C%20TECH%20ZONE%20-%204%2C%20Amrapali%20Dream%20Valley%2C%20Greater%20Noida%2C%20Uttar%20Pradesh%20201306!5e1!3m2!1sen!2sin!4v1761293518830!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                <!--<div class="home8-contact-form default-box-shadow1 bdrs12 bdr1 p30 mb30-md bgc-white">
-              <h4 class="form-title mb25">Want To Join Us? Get in touch!</h4>
-              <form class="form-style1">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="mb20">
-                      <label class="heading-color ff-heading fw600 mb10">First Name</label>
-                      <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="mb20">
-                      <label class="heading-color ff-heading fw600 mb10">Last Name</label>
-                      <input type="text" class="form-control" placeholder="Your Name">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="mb20">
-                      <label class="heading-color ff-heading fw600 mb10">Email</label>
-                      <input type="email" class="form-control" placeholder="Your Name">
-                    </div>
-                  </div>
-                  
-                <div class="col-md-12">
-                    <div class="mb20">
-                      <label class="heading-color ff-heading fw600 mb10">Upload CV</label>
-                      <input type="file" class="form-control" placeholder="Your CV">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="mb10">
-                      <label class="heading-color ff-heading fw600 mb10">Textarea</label>
-                      <textarea cols="30" rows="4" placeholder="There are many variations of passages."></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="d-grid">
-                      <a class="ud-btn btn-thm" href="page-contact.html">Submit<i class="fal fa-arrow-right-long"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>-->
-              </div>
-            </div>
-            
-            
-          </div>
-          <div class="col-lg-4">
-             <div class="agent-single-details mt30 pb30 bdrb1">
-                  <h6 class="fz17 mb30">Investment Opportunities</h6>
-                  <p class="text">
-We are here to assist you in finding successful real estate investment possibilities. In order to assist you in making wise investment decisions, our experts carefully investigate potential investments, assess market trends, and offer insightful analysis.
-</p>
- 
-                   
-                </div>
-                
-            <div class="agen-personal-info position-relative bgc-white default-box-shadow1 bdrs12 p30 mt30">
-              <div class="widget-wrapper mb-0">
-                <h6 class="title fz17 mb35">Contact Information</h6>
-                <div class="list-news-style d-flex align-items-center justify-content-between mb10">
-                  <div class="flex-shrink-0"><h6 class="fz14 mb-0">Address</h6></div>
-                  <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14"><br><br>A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306</p>
-                  </div>
-                </div>
-                <div class="list-news-style d-flex align-items-center justify-content-between mb10">
-                  <div class="flex-shrink-0"><h6 class="fz14 mb-0">Phone</h6></div>
-                  <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14">+91-8588844441</p>
-                  </div>
-                </div>
-                 
-                 
-                 
-                <div class="list-news-style d-flex align-items-center justify-content-between">
-                  <div class="flex-shrink-0"><h6 class="fz14 mb-0">Email Us</h6></div>
-                  <div class="news-content flex-shrink-1 ms-3 text-end">
-                    <p class="text mb-0 fz14">Info@maybach.homes</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h6 class="fw-semibold mt-4" style="color:#b8860b;">Role Overview</h6>
+        <ul>
+          <li>Handle inbound & outbound calls with potential buyers/investors</li>
+          <li>Present Maybach Homes projects with clarity</li>
+          <li>Build & maintain client relationships</li>
+          <li>Achieve sales targets and record leads in CRM</li>
+        </ul>
+
+        <h6 class="fw-semibold mt-3" style="color:#b8860b;">What We Offer</h6>
+        <ul>
+         
+          <li>High commissions & incentives</li>
+          <li>Career growth & professional environment</li>
+        </ul>
+
+        <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <p><strong>📞</strong> +91 8929522697</p>
+
+        <a href="#apply-form" class="btn-apply" data-job="Tele Sales Executive">Apply Now</a>
       </div>
-    </section>
-	
-	
-	  <section class="our-cta2 p0" style="overflow: hidden;">
-      <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">
-        <div class="img-box-5">
-          <img class="img-1 spin-right" src="images/element-1.png" alt="">
-        </div>
-        <div class="img-box-6">
-          <img class="img-1 spin-left" src="images/element-2.png" alt="">
-        </div>
-        <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
-          <img src="images/cta-img-1.png" alt="">
-        </div>
-        <div class="container">
+
+      <div class="col-lg-6 text-center">
+        <img src="uploads/sales.jpeg" alt="Tele Sales Executive" class="job-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Job 2 ================= -->
+<section class="job-section" style="background:#0b0b0b; color:#fff; padding:60px 0;">
+  <div class="container">
+    <div class="row align-items-center flex-lg-row-reverse">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="fw-bold mb-3" style="color:#b8860b;">Hiring: Real Estate Sales Agents – India</h3>
+        <p><strong>📍 Location:</strong> A-1314, Tower 3, NX-One, Tech Zone-4, Greater Noida</p>
+        <p><strong>💰 Salary:</strong> Attractive Salary + High Commission</p>
+
+        <p>Maybach Homes Property Group is one of India’s fastest-growing real estate firms specializing in premium and luxury properties.</p>
+
+        <h6 class="fw-semibold mt-4" style="color:#b8860b;">Responsibilities</h6>
+        <ul>
+          <li>Generate leads and convert them into sales</li>
+          <li>Conduct property visits & close deals</li>
+          <li>Maintain client follow-ups & reports</li>
+        </ul>
+
+        <h6 class="fw-semibold mt-3" style="color:#b8860b;">Perks & Benefits</h6>
+        <ul>
+          <li>Attractive salary + high commissions</li>
+          <li>Performance incentives & training</li>
+        </ul>
+
+        <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <a href="#apply-form" class="btn-apply" data-job="Real Estate Sales Agent">Apply Now</a>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="uploads/agents.jpeg" alt="Real Estate Sales Agent" class="job-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Job 3 ================= -->
+<section class="job-section" style="background:#000; color:#fff; padding:60px 0;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="fw-bold mb-3" style="color:#b8860b;">Hiring: Real Estate Sales Manager – India</h3>
+        <p><strong>📍 Location:</strong> Multiple Locations, India</p>
+        <p><strong>💰 Salary:</strong> Competitive Salary + High Commission</p>
+
+        <p>We are seeking an experienced and results-driven Real Estate Sales Manager to lead our sales operations and achieve outstanding growth.</p>
+
+        <h6 class="fw-semibold mt-4" style="color:#b8860b;">Key Responsibilities</h6>
+        <ul>
+          <li>Lead, train and motivate sales teams</li>
+          <li>Develop & implement strategic sales plans</li>
+          <li>Manage high-value client relationships</li>
+        </ul>
+
+        <h6 class="fw-semibold mt-3" style="color:#b8860b;">Perks & Benefits</h6>
+        <ul>
+          <li>Competitive salary + high commission</li>
+          <li>Performance bonuses & leadership growth</li>
+        </ul>
+
+        <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <a href="#apply-form" class="btn-apply" data-job="Sales Manager">Apply Now</a>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="uploads/salesmanager.jpeg" alt="Sales Manager" class="job-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Job 4 ================= -->
+<section class="job-section" style="background:#0b0b0b; color:#fff; padding:60px 0;">
+  <div class="container">
+    <div class="row align-items-center flex-lg-row-reverse">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="fw-bold mb-3" style="color:#b8860b;">Hiring: Human Resource & Administration Executive – India</h3>
+        <p><strong>📍 Location:</strong> Multiple Locations, India</p>
+        <p><strong>💰 Salary:</strong> Competitive (Based on Experience)</p>
+
+        <p>We are expanding operations and seeking a dedicated HR & Administration Executive to support recruitment, payroll, compliance and office administration.</p>
+
+        <h6 class="fw-semibold mt-4" style="color:#b8860b;">Responsibilities</h6>
+        <ul>
+          <li>Recruitment & onboarding</li>
+          <li>Payroll, attendance & compliance</li>
+          <li>Office coordination & HR records</li>
+        </ul>
+
+        <h6 class="fw-semibold mt-3" style="color:#b8860b;">Perks</h6>
+        <ul>
+          <li>Competitive salary</li>
+          <li>Career growth opportunities</li>
+        </ul>
+
+        <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <a href="#apply-form" class="btn-apply" data-job="HR & Administration Executive">Apply Now</a>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="uploads/hradmin.jpeg" alt="HR & Admin Executive" class="job-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Application Form ================= -->
+<section id="apply-form" style="background:#000; color:#fff; padding:70px 0;">
+  <div class="container">
+    <div class="col-lg-8 mx-auto">
+      <div style="background:#0b0b0b; padding:30px 35px; border-radius:12px; box-shadow: 0 6px 30px rgba(0,0,0,0.6);">
+        <h3 class="text-center fw-bold" style="color:#b8860b;">Apply for a Position</h3>
+        <p class="text-center" style="color:#cfcfcf;">Fill in your details below and our HR team will get back to you.</p>
+
+        <form id="careerForm" method="POST" action="https://formspree.io/f/xjkanlqw" style="margin-top:18px;">
+          <input type="hidden" id="jobTitle" name="Job Title" value="">
+
           <div class="row">
-            <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInUp;">
-              <div class="cta-style2">
-                <h2 class="cta-title">Need help? Talk to our expert</h2>
-                <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
-                <a href="{{ asset('contact')}}" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
-				<a href="tel: A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>
-+91-8588844441
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" name="Full Name" class="form-control dark-input" required>
+            </div>
 
-</a> 
-              </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" name="Email" class="form-control dark-input" required>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Phone Number</label>
+              <input type="text" name="Phone" class="form-control dark-input" required>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Designation</label>
+              <input type="text" name="Designation" class="form-control dark-input" required>
+            </div>
+
+            <div class="col-md-12 mb-3">
+              <label class="form-label">About Yourself</label>
+              <textarea name="About Yourself" rows="4" class="form-control dark-input" required></textarea>
+            </div>
+
+            <div class="col-12 text-center mt-3">
+              <button type="submit" class="btn-submit">Submit Application</button>
             </div>
           </div>
-        </div>
+        </form>
+
       </div>
-    </section>
-  <!-- Our CTA --> 
-@include('user_layout.footer');
+    </div>
+  </div>
+</section>
+
+<!-- ================= JS: SweetAlert + Form handling ================= -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  // Apply buttons
+  document.querySelectorAll('.btn-apply').forEach(btn => {
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      document.getElementById('jobTitle').value = this.dataset.job;
+      document.getElementById('apply-form').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Form submit
+  document.getElementById('careerForm').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const form = this;
+    const btn = form.querySelector('.btn-submit');
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        await Swal.fire({ icon: 'success', title: 'Application Sent', text: 'Our HR team will contact you soon.', confirmButtonColor: '#b8860b' });
+        form.reset();
+      } else {
+        Swal.fire({ icon: 'error', title: 'Submission Failed', text: 'Please try again later.', confirmButtonColor: '#b8860b' });
+      }
+    } catch {
+      Swal.fire({ icon: 'error', title: 'Network Error', text: 'Unable to submit form.', confirmButtonColor: '#b8860b' });
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Submit Application';
+    }
+  });
+</script>
+
+<!-- ================= Styles ================= -->
+<style>
+  .job-image { width:100%; max-width:520px; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,0.6); transition:transform .3s ease; }
+  .job-image:hover { transform:translateY(-6px) scale(1.03); }
+
+  .btn-apply, .btn-submit {
+    display:inline-block; background:#b8860b; color:#000;
+    padding:10px 22px; border-radius:30px; font-weight:600;
+    text-decoration:none; border:none; cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-apply:hover, .btn-submit:hover {
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(184,134,11,0.25);
+  }
+
+  .accent-link { color:#f9d88a; text-decoration:underline; }
+  .accent-link:hover { color:#fff; }
+
+  h3, h6, p, li, label { color:#f1f1f1; }
+  ul { padding-left:20px; }
+  ul li { margin-bottom:6px; }
+
+  .dark-input {
+    background:#111; color:#fff; border:1px solid #333;
+    padding:12px 14px; border-radius:8px; width:100%;
+  }
+  .dark-input:focus {
+    outline:none; border-color:#b8860b; box-shadow:0 0 5px #b8860b;
+  }
+
+  @media (max-width:767px){
+    .career-hero { padding-top:100px; padding-bottom:40px; text-align:center; }
+    .job-image { margin-top:20px; }
+    .btn-apply, .btn-submit { width:100%; display:block; text-align:center; }
+  }
+</style>
+
+@include('user_layout.footer')
