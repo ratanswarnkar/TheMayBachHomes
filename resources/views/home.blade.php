@@ -174,20 +174,20 @@
   </div>
 </div>
 
-<a href="#explore-property">
+<!-- <a href="#explore-property">
   <div class="mouse_scroll animate-up-4">
-    <img src="{{ asset('uploads/home-scroll.png') }}" alt="" />
+    <img src="{{ asset('uploads/home-scroll.png') }}" alt="niakaa;" />
   </div>
-</a>
+</a> -->
 
               
 
                 
      
-        <a href="#explore-property">
+        <!-- <a href="#explore-property">
           <div class="mouse_scroll animate-up-4">
             <img src="uploads/home-scroll.png" alt="" />          </div>
-        </a>      </div>
+        </a>      </div> -->
     </div></section>
 
     <!-- Explore Apartment -->

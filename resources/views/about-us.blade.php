@@ -69,17 +69,17 @@ justify-content: space-evenly; flex-direction: row;
 			<img src="uploads/aboutus.jpeg" style="width: 90%;">
           </div>
           <div class="col-lg-6">
-            <p class="text mb25">Maybach Homes – Where Luxury Meets Lifestyle
+            <p class="text mb25">Maybach Homes Property Group – Where Luxury Meets Lifestyle
 
-At Maybach Homes, we redefine the meaning of luxury living. Established with a vision to create world-class real estate experiences, we are committed to delivering properties that combine elegance, innovation, and timeless value. Based in India, our portfolio spans across premium residential and commercial developments designed to inspire modern living and reflect the aspirations of our clients.</p>
+At Maybach Homes Property Group, we redefine the meaning of luxury living. Established with a vision to create world-class real estate experiences, we are committed to delivering properties that combine elegance, innovation, and timeless value. Based in India, our portfolio spans across premium residential and commercial developments designed to inspire modern living and reflect the aspirations of our clients.</p>
 
-<p>Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes development is built to the highest standards of craftsmanship and design excellence.</p>
+<p>Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes Property Group development is built to the highest standards of craftsmanship and design excellence.</p>
 
 <p>We collaborate with top architects, designers, and construction experts to bring to life spaces that are not only visually stunning but also sustainable and future-ready. With an unwavering focus on customer satisfaction, we ensure that every client experiences a seamless journey — from consultation to handover.
 
-At Maybach Homes, we don’t just build properties — we craft lifestyles that embody sophistication, comfort, and luxury.
+At Maybach Homes Property Group, we don’t just build properties — we craft lifestyles that embody sophistication, comfort, and luxury.
 
-Maybach Homes India – Crafting the future of luxury real estate, one landmark at a time.</p>
+Maybach Homes Property Group India – Crafting the future of luxury real estate, one landmark at a time.</p>
             <p class="text mb55"></p>
             <div class="row">
               <div class="col-sm-6">
@@ -112,7 +112,7 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
     </section>
 
     <section class="fullwidth-banner">
-  <img src="uploads/about.jpeg" alt="About Maybach Homes" class="fullwidth-image">
+  <img src="uploads/about.png" alt="About Maybach Homes" class="fullwidth-image">
 </section>
  
    
