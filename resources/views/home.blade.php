@@ -170,7 +170,7 @@
     <a href="{{ asset('/apartments-properties') }}" class="btn-link">APARTMENT</a>
     <a href="{{ asset('/office-properties') }}" class="btn-link">OFFICE</a>
     <a href="{{ asset('/villa-properties') }}" class="btn-link">VILLA</a>
-    <a href="{{ asset('/super-properties') }}" class="btn-link">SUPER DELUX PROPERTY</a>
+    <a href="{{ asset('/super-properties') }}" class="btn-link">Premium Property</a>
   </div>
 </div>
 
@@ -246,7 +246,7 @@
                   <div class="iconbox-style1" style="background-image: url(uploads/Townhouse.jfif);background-size: cover;">
                     <span class="icon"><img src="uploads/icon5.png" /></span>
                     <div class="iconbox-content">
-                      <h6 class="title">SUPER DELUX PROPERTY</h6>
+                      <h6 class="title">Premium PROPERTY</h6>
                                             <p class="text mb-0">Click Here</p>
                                           </div>
                   </div>
@@ -1328,8 +1328,8 @@
       </div>
       <div class="member">
         <img src="images/manager.png" alt="Manager">
-        <h3>Mr. Shivam Yadav</h3>
-        <p>Administrator</p>
+        <h3>Mr. Sameer Yadav</h3>
+        <p>Business Development Manager</p>
       </div>
     </div>
 

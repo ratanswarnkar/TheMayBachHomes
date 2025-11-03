@@ -47,9 +47,13 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="breadcumb-style1">
-              <h2 class="title">About Us</h2>
+              <h2 class="title" display: flex;
+  flex-wrap: wrap;
+align-content: stretch;
+justify-content: space-evenly; flex-direction: row;
+    align-items: flex-end;>About Us</h2>
  
-              <p style="font-weight: bold;letter-spacing: 1px;">Where your dreams find their perfect abode</p>
+              <p style="font-weight: bold;letter-spacing: 1px;"></p>
             </div>
           </div>
         </div>
@@ -62,7 +66,7 @@
         <div class="row wow fadeInUp" data-wow-delay="300ms">
           <div class="col-lg-6">
             <h2>We're on a Mission to Change <br class="d-none d-lg-block"> View of Real Estate Field.</h2>
-			<img src="uploads/aboutus.jpg" style="width: 90%;">
+			<img src="uploads/aboutus.jpeg" style="width: 90%;">
           </div>
           <div class="col-lg-6">
             <p class="text mb25">Maybach Homes – Where Luxury Meets Lifestyle
@@ -81,9 +85,9 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
               <div class="col-sm-6">
                 <div class="why-chose-list style3">
                   <div class="list-one mb30">
-                   <a href="sale.php"> <span class="list-icon flex-shrink-0 fa fa-home mb20"></span></a>
+                   <a href="{{ asset('/sale-properties')}}"> <span class="list-icon flex-shrink-0 fa fa-home mb20"></span></a>
                     <div class="list-content flex-grow-1">
-                      <h6 class="mb-1"><a href="sale.php">Properties For Sale</a> </h6>
+                      <h6 class="mb-1"><a href="{{ asset('/sale-properties')}}">Properties For Sale</a> </h6>
                       <p class="text mb-0 fz14">Opening Doors to <br class="d-none d-sm-block"> New Beginnings.</p>
                     </div>
                   </div>
@@ -92,9 +96,9 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
               <div class="col-sm-6">
                 <div class="why-chose-list style3">
                   <div class="list-one mb30">
-                   <a href="rent.php"> <span class="list-icon flex-shrink-0 fa fa-money mb20"></span></a>
+                   <a href="{{ asset('/rent-properties')}}"> <span class="list-icon flex-shrink-0 fa fa-money mb20"></span></a>
                     <div class="list-content flex-grow-1">
-                      <h6 class="mb-1"><a href="rent.php">Properties For Rent   </a></h6>
+                      <h6 class="mb-1"><a href="{{ asset('/rent-properties')}}">Properties For Rent   </a></h6>
                       <p class="text mb-0 fz14">Find exclusive rental
  <br class="d-none d-sm-block"> Listings in UAE.</p>
                     </div>
@@ -107,7 +111,9 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
       </div>
     </section>
 
-    
+    <section class="fullwidth-banner">
+  <img src="uploads/about.jpeg" alt="About Maybach Homes" class="fullwidth-image">
+</section>
  
    
   <section id="team" class="team-section">
@@ -133,12 +139,12 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
       <div class="member">
         <img src="images/hr.png" alt="HR">
         <h3>Ms. Sakshi Kushwaha</h3>
-        <p>Human Resources</p>
+        <p>HR Manager</p>
       </div>
       <div class="member">
         <img src="images/manager.png" alt="Manager">
-        <h3>Mr. Shivam Yadav</h3>
-        <p>Administrator</p>
+        <h3>Mr. Sameer Yadav</h3>
+        <p>Business Development Manager</p>
       </div>
     </div>
 
@@ -172,6 +178,17 @@ Maybach Homes India – Crafting the future of luxury real estate, one landmark 
 </section>
 
 <style>
+  .fullwidth-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.fullwidth-banner .fullwidth-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
   .founder {
   text-align: center;
   margin-top: 40px;

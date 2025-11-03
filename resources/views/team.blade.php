@@ -27,8 +27,8 @@
       </div>
       <div class="member">
         <img src="images/manager.png" alt="Manager">
-        <h3>Mr. Shivam Yadav</h3>
-        <p>Administrator</p>
+        <h3>Mr. Sameer Yadav</h3>
+        <p>Business Development Manager</p>
       </div>
     </div>
 

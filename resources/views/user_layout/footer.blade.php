@@ -48,8 +48,8 @@
                   <div class="link-style1 mb-3">
                     <h6 class="text-white mb25">Popular Search</h6>
                     <div class="link-list">
-                      <a href="{{ asset('rent')}}">Properties for Rent</a>
-                      <a href="{{ asset('sale')}}">Properties for Sale</a>
+                      <a href="{{ asset('/rent-properties')}}">Properties for Rent</a>
+                      <a href="{{ asset('/sale-properties')}}">Properties for Sale</a>
                       <a href="{{ asset('projects')}}">Latest Projects</a>
 					 <a href="{{ asset('contact')}}">Contact Us</a>
                                       </div>
@@ -72,10 +72,10 @@
                     <h6 class="text-white mb25">Discover</h6>
                     <ul class="ps-0">
                       <li><a href="{{ asset('projects')}}">Noida</a></li>
-                      <li><a href="{{ asset('projects')}}">Ghaziabad</a></li>
-                      <li><a href="{{ asset('projects')}}">Jaipur</a></li>
-                      <li><a href="{{ asset('projects')}}">Mumbai</a></li>
-					  <li><a href="{{ asset('projects')}}">Bhopal</a></li>
+                      <li><a href="{{ asset('projects')}}">Gurgaon</a></li>
+                      <li><a href="{{ asset('projects')}}">Delhi</a></li>
+                      <li><a href="{{ asset('projects')}}">Greater Noida</a></li>
+					  <!-- <li><a href="{{ asset('projects')}}">Bhopal</a></li> -->
                     </ul>
                   </div>
                 </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="col-sm-6">
             <div class="text-center text-lg-end">
-              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="{{ asset('home')}}">The Maybach Homes</a> </p>
+              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="{{ asset('/')}}">The Maybach Homes</a> </p>
             </div>
           </div>
         </div>

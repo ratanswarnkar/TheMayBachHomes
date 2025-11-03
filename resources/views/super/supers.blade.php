@@ -359,7 +359,7 @@
             <div class="mt30">
               <div class="text-center text-xl-start">
                 <br>
-                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Super Delux Property for Sale</h4>                
+                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Premium Property for Sale</h4>                
               </div>
                
                
