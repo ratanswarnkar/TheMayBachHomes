@@ -19,7 +19,7 @@
     <nav id="menu" class="">
       <ul>
         <li><a href="{{ asset('home')}}">Home</a></li>
-		<li><a href="{{ asset('about-us')}}">About Us</a></li>
+		<li><a href="{{ asset('about-us')}}">ABOUT US</a></li>
         <li><a href="{{ asset('projects')}}">Projects</a></li>
 		<li><a href="sale.php">Re-Sale</a></li>
 		<li><a href="rent.php">Rent</a></li>
@@ -51,7 +51,7 @@
   flex-wrap: wrap;
 align-content: stretch;
 justify-content: space-evenly; flex-direction: row;
-    align-items: flex-end;>About Us</h2>
+    align-items: flex-end; style="font-size:43px">ABOUT US</h2>
  
               <p style="font-weight: bold;letter-spacing: 1px;"></p>
             </div>
@@ -69,13 +69,13 @@ justify-content: space-evenly; flex-direction: row;
 			<img src="uploads/aboutus.jpeg" style="width: 90%;">
           </div>
           <div class="col-lg-6">
-            <p class="text mb25">Maybach Homes Property Group – Where Luxury Meets Lifestyle
+            <p class="text mb25" style="font-weight:bold;">Maybach Homes Property Group – Where Luxury Meets Lifestyle
 
 At Maybach Homes Property Group, we redefine the meaning of luxury living. Established with a vision to create world-class real estate experiences, we are committed to delivering properties that combine elegance, innovation, and timeless value. Based in India, our portfolio spans across premium residential and commercial developments designed to inspire modern living and reflect the aspirations of our clients.</p>
 
-<p>Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes Property Group development is built to the highest standards of craftsmanship and design excellence.</p>
+<p style="font-weight:bold;">Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes Property Group development is built to the highest standards of craftsmanship and design excellence.</p>
 
-<p>We collaborate with top architects, designers, and construction experts to bring to life spaces that are not only visually stunning but also sustainable and future-ready. With an unwavering focus on customer satisfaction, we ensure that every client experiences a seamless journey — from consultation to handover.
+<p style="font-weight:bold;">We collaborate with top architects, designers, and construction experts to bring to life spaces that are not only visually stunning but also sustainable and future-ready. With an unwavering focus on customer satisfaction, we ensure that every client experiences a seamless journey — from consultation to handover.
 
 At Maybach Homes Property Group, we don’t just build properties — we craft lifestyles that embody sophistication, comfort, and luxury.
 

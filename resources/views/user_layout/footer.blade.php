@@ -88,12 +88,12 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="text-center text-lg-start">
-              <p class="copyright-text text-gray ff-heading">© 2023 The Maybach Homes Reat Estate</p>
+              <p class="copyright-text text-gray ff-heading">© 2023 The Maybach Homes Property Group</p>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="text-center text-lg-end">
-              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="{{ asset('/')}}">The Maybach Homes</a> </p>
+              <p class="footer-menu ff-heading text-gray">Site By: <a target="_blank" class="text-gray" href="{{ asset('/')}}">The Maybach Homes Property Group</a> </p>
             </div>
           </div>
         </div>

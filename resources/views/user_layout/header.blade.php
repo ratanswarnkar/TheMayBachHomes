@@ -20,7 +20,7 @@
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="lovinorealestate.com/css/responsive.css" />
 <!-- Title -->
-<title>MayBach Real Estate</title>
+<title>MayBach Homes Property Group</title>
  
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -219,7 +219,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel">Welcome to MayBach</h5>
+            <h5 class="modal-title" id="exampleModalToggleLabel">Welcome to MayBach Homes Property Group</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">

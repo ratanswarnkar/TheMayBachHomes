@@ -392,7 +392,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p4details')}}"><img class="w-100" src="uploads/p4.webp" alt="" /></a>
-                      <div class="list-price top"></div>                    
+                      <div class="list-price top">Ready To Move</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -438,7 +438,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/p6.webp" alt="" /></a>
-                      <div class="list-price top"></div>                    
+                      <div class="list-price top">Ready To Move</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -1039,267 +1039,200 @@
       </div>
     </section> -->
 
-   <section class="pt60 pb50-md bgc-thm-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="00ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
-            <div class="main-title">
-              <h2 class="title">Hear from our satisfied clients</h2>
-              <p class="paragraph">"Read what our satisfied clients have to say about their remarkable experiences with us!"</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="testimonial-slider navi_pagi_top_right slider-3-grid owl-carousel owl-theme wow fadeInUp owl-loaded owl-drag" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-			
-			  	
-              
-               	
-              
-               	
-              
-               	
-              
-               	
-              
-                             
-            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1146px, 0px, 0px); transition: all; width: 4202px;"><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Helped me navigate through complex investment opportunities from my savings. Transparency, and honest advice gave me the confidence to make informed decisions. Thanks and i look forward to many more successful ventures with them.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/122f8065dedd4ef178f649f87a6583edMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Wael</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Their knowledge of the market and commitment to achieving the best results surpassed my expectations. More confidence with you guys now.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/540f21e22e01708eafca23650a092fdbMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Tamim</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Their team took the time to understand my unique requirements and provided me with an exxlusive selection of properties that matched my vision. Assisted me throughout the negotiation process, ensuring I secured a favorable lease agreement.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/a5c8f87596bc5ffa5a271dc8be065e5bMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Mustafa</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>I had an incredible experience working The MayBach Homes Property Group. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/3478dd6534b552344ac8d4c5cb2f93fdFemale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mrs. Sarah</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>I recently relocated to a new city and needed to find a rental property quickly. Valuable guidance, promptly answered all my questions, and ensured a smooth transition into my new home. I am grateful for their professionalism.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/cd945a691af65d57dd579732c624e324Male.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Manoj</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item active" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Helped me navigate through complex investment opportunities from my savings. Transparency, and honest advice gave me the confidence to make informed decisions. Thanks and i look forward to many more successful ventures with them.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/122f8065dedd4ef178f649f87a6583edMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Wael</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Their knowledge of the market and commitment to achieving the best results surpassed my expectations. More confidence with you guys now.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/540f21e22e01708eafca23650a092fdbMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Tamim</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Their team took the time to understand my unique requirements and provided me with an exxlusive selection of properties that matched my vision. Assisted me throughout the negotiation process, ensuring I secured a favorable lease agreement.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/a5c8f87596bc5ffa5a271dc8be065e5bMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Mustafa</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>I had an incredible experience working The MayBach Homes Property Group. They took the time to understand my preferences and guided me through the entire process with professionalism and care. Thanks to their expertise and attention to detail, I found a property that exceeded my expectations. I couldn`t be happier with my decision.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/3478dd6534b552344ac8d4c5cb2f93fdFemale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mrs. Sarah</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>I recently relocated to a new city and needed to find a rental property quickly. Valuable guidance, promptly answered all my questions, and ensured a smooth transition into my new home. I am grateful for their professionalism.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/cd945a691af65d57dd579732c624e324Male.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Manoj</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                <div class="testimonial-style1 position-relative">
-                  <div class="testimonial-content">
-                    <h5 class="title"> </h5>
-                    <span class="icon fa fa-quote-left"></span>
-                    <p>Helped me navigate through complex investment opportunities from my savings. Transparency, and honest advice gave me the confidence to make informed decisions. Thanks and i look forward to many more successful ventures with them.</p>                    <div class="testimonial-review">
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a class="me-1" href=""><i class="fa fa-star"></i></a>
-                      <a href=""><i class="fa fa-star"></i></a>                    </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="" src="uploads/122f8065dedd4ef178f649f87a6583edMale.svg" alt="" style="width:50px;" />                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-0">Mr. Wael</h6>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div>
-          </div>
+<section class="pt60 pb50-md" style="background-color: #ffffff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="00ms">
+        <div class="main-title">
+          <h2 class="title" style="color: #000 !important;">Hear from our satisfied clients</h2>
+          <p class="paragraph" style="color: #555 !important;">"Read what our satisfied clients have to say about their remarkable experiences with us!"</p>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="testimonial-slider navi_pagi_top_right slider-3-grid owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
+
+          <!-- Testimonial Item 1 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">Working with The MayBach Homes team was a seamless experience. Their attention to detail, transparency, and consistent updates made the process comfortable and stress-free. I highly recommend their services!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Sophia</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 2 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">The service was great, and they understood my property requirements well. I would have appreciated quicker turnaround times on the documentation, but overall, a very positive experience.</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Ankit</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 3 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">From property search to finalizing the deal, the entire process felt effortless. The professionalism and knowledge of the market really set them apart. Thank you for helping me find my dream home!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Laila</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 4 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">I found a wonderful rental property thanks to their support. The team was responsive and thoughtful, though I wish the viewing arrangements were more flexible. Still very satisfied!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Rizwan</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 5 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">I am impressed by the level of commitment and expertise shown during my property investment. They offered great insights and ensured all my queries were answered clearly. Would definitely work with them again.</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Harish</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 6 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">Truly a client-first experience. They understood my vision and worked tirelessly to deliver beyond expectations. Very reliable, responsive, and professional – 5 stars all the way!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Ms. Amelia</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 7 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #fff !important; margin-top: 10px;">The entire team was very professional and polite. I only wish we had a few more options to choose from, but the property I chose was still a great match for my needs. Thank you!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="uploads/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Youssef</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End slider -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <section id="team" class="team-section">
   <div class="container">
