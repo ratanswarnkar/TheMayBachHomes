@@ -1,4 +1,5 @@
-@include('user_layout.header');
+@include('user_layout.header')
+
 <style>
  
 /* ========== FIX VIDEO BACKGROUND VISIBILITY ========== */
@@ -301,52 +302,58 @@
       </div>
     </section>
 
-    <!-- Explore Apartment -->
-    <section class="bgc-black">
-      <div class="container">
-        <div class="row align-items-center wow fadeInUp" data-wow-delay="00ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
-          <div class="col-lg-9">
-            <div class="main-title2">
-              <h2 class="title">Latest Projects</h2>
-              <p class="paragraph">"Where extraordinary landmarks meet impeccable service"</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="text-start text-lg-end mb-3">
-              <a class="ud-btn2" href="{{ asset('projects')}}">See All Projects <i class="fa fa-long-arrow-right"></i></a>            </div>
-          </div>
+  <!-- Explore Apartment -->
+<section class="bgc-black">
+  <div class="container">
+    <div class="row align-items-center wow fadeInUp" data-wow-delay="00ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
+      <div class="col-lg-9">
+        <div class="main-title2">
+          <h2 class="title">Latest Projects</h2>
+          <p class="paragraph">"Where extraordinary landmarks meet impeccable service"</p>
         </div>
-        <div class="row">
-          <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-            <div class="feature-listing-slider navi_pagi_bottom_center slider-dib-sm slider-3-grid owl-carousel owl-theme owl-loaded owl-drag">
-            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2674px, 0px, 0px); transition: 1.2s; width: 4584px;"><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
+      </div>
+      <div class="col-lg-3">
+        <div class="text-start text-lg-end mb-3">
+          <a class="ud-btn2" href="{{ asset('projects')}}">See All Projects <i class="fa fa-long-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+        <div class="feature-listing-slider navi_pagi_bottom_center slider-dib-sm slider-3-grid owl-carousel owl-theme owl-loaded owl-drag">
+          <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-2674px, 0px, 0px); transition: 1.2s; width: 4584px;">
+              
+              <!-- Your existing items (no change at all) -->
+              <div class="owl-item cloned" style="width: 352px; margin-right: 30px;">
+                <div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
+                      <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt="" /></a>
+                      <div class="list-price top">Handover: 2028-06-25</div>
+                      <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                     </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p1details')}}">M3M Jewel Crest Avenue, Sector 97, Noida</a></h6>
                       <p class="list-text">M3M Jewel Crest Avenue</p>
-                       
                       <hr class="mt-2 mb-2" />
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
                         <span class="project-type"><a href="{{ asset('p1details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
                           <a href="{{ asset('p1details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i>M3M Jewel Crest Avenue</a>
-                         
                         </div>
                       </div>
                     </div>
                   </div>
-                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
+                </div>
+              </div>
+
+              <!-- ... all your other project items remain EXACTLY the same ... -->
+<div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p2details')}}"> <img class="w-100" src="uploads/p2.png" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-10-07</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -369,7 +376,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p3details')}}"> <img class="w-100" src="uploads/p3.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-19-09</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -415,7 +422,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p5details')}}"> <img class="w-100" src="uploads/p5.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-12-27</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -461,7 +468,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p7details')}}"> <img class="w-100" src="uploads/p7.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-03-02</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -484,7 +491,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p8details')}}"> <img class="w-100" src="uploads/p8.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-09-18</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -507,7 +514,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p9details')}}"> <img class="w-100" src="uploads/p9.webp" alt="" /></a>
-                      <div class="list-price top">Handover: 2028-04-01</div>                    
+                      <div class="list-price top">Handover: 2028-08-01</div>                    
                     
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         
@@ -522,85 +529,73 @@
                         <div class="icons d-flex align-items-center">
                           <a href="{{ asset('p9details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> EON Fairfox</a>
                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                <!-- </div></div><div class="owl-item cloned active" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=235&amp;title=Serene Garden 1BHK"> <img class="w-100" src="uploads/19e56da449e981f52ab0b7ad83650acf01 Priscott Serene Garden.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=235&amp;title=Serene Garden 1BHK">Serene Garden 1BHK</a></h6>
-                      <p class="list-text">Discovery Gardens</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=235&amp;title=Serene Garden 1BHK">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=235&amp;title=Serene Garden 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Serene Garden 1BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="project-page.php?id=243&amp;title=Alpha 1BHK"> <img class="w-100" src="uploads/3082fa2f9e5577a7c3453c69a0709458Symbolic Alpha Day view.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="project-page.php?id=243&amp;title=Alpha 1BHK">Alpha 1BHK</a></h6>
-                      <p class="list-text">Dubai</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="project-page.php?id=243&amp;title=Alpha 1BHK">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="project-page.php?id=243&amp;title=Alpha 1BHK" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 1BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div><div class="owl-item cloned" style="width: 352px; margin-right: 30px;"><div class="item">
-                  <div class="listing-style1 projectssection">
-                    <div class="list-thumb">
-                     <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/b03ae23663ac55019a1dff196cf2961fSymbolic Alpha Night view.jpg" alt="" /></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                    
-                    
-                    <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
-                                        
-                    </div>
-                    <div class="list-content">
-                      <h6 class="list-title"><a href="{{ asset('p6details')}}">Alpha 2.5BHK</a></h6>
-                      <p class="list-text">Dubai</p>
-                       
-                      <hr class="mt-2 mb-2" />
-                      <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="{{ asset('p6details')}}">Off Plan</a></span>
-                        <div class="icons d-flex align-items-center">
-                          <a href="{{ asset('p6details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> Alpha 2.5BHK</a>
-                         
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div><div class="owl-dots disabled"></div></div> -->
+                        
+            </div>
           </div>
         </div>
       </div>
-    </section>
- 
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Include Owl Carousel dependencies (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function () {
+  // wait until Owl is initialized by your theme
+  var slider = $('.feature-listing-slider');
+
+  function startAutoplay() {
+    if (slider.hasClass('owl-loaded')) {
+      slider.trigger('play.owl.autoplay', [3000]); // every 3s
+      console.log('✅ Autoplay started');
+    } else {
+      setTimeout(startAutoplay, 500); // try again until loaded
+    }
+  }
+
+  // reconfigure autoplay options (safe even if already loaded)
+  slider.owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    smartSpeed: 800,
+    loop: true,
+  });
+
+  startAutoplay();
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  function forceAutoplay(selector, timeout = 3000) {
+    const $el = jQuery(selector);
+    if (!$el.length) return;
+
+    // If already initialized by theme, trigger autoplay
+    if ($el.hasClass("owl-loaded")) {
+      $el.trigger("play.owl.autoplay", [timeout]);
+      console.log("✅ Autoplay started for", selector);
+      return;
+    }
+
+    // Wait until Owl is initialized by your theme
+    setTimeout(() => forceAutoplay(selector, timeout), 500);
+  }
+
+  window.addEventListener("load", function() {
+    // Ensure both sliders autoplay every 3 seconds
+    forceAutoplay(".feature-listing-slider", 3000);
+    forceAutoplay(".testimonial-slider", 3000);
+  });
+});
+</script>
+
+
   
     <section class="bgc-dark">
       <div class="container">
@@ -1058,7 +1053,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #000 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #fff !important; margin-top: 10px;">Working with The MayBach Homes team was a seamless experience. Their attention to detail, transparency, and consistent updates made the process comfortable and stress-free. I highly recommend their services!</p>
+                <p style="color: #fff !important; margin-top: 10px;">Working with The MayBach Homes Property Group team was a seamless experience. Their attention to detail, transparency, and consistent updates made the process comfortable and stress-free. I highly recommend their services!</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -1494,6 +1489,7 @@
 
 
       </script>
+      
     @include('user_layout.footer');
   <!-- Our CTA --> 
   

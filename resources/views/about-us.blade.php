@@ -73,9 +73,9 @@ justify-content: space-evenly; flex-direction: row;
 
 At Maybach Homes Property Group, we redefine the meaning of luxury living. Established with a vision to create world-class real estate experiences, we are committed to delivering properties that combine elegance, innovation, and timeless value. Based in India, our portfolio spans across premium residential and commercial developments designed to inspire modern living and reflect the aspirations of our clients.</p>
 
-<p style="font-weight:bold;">Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes Property Group development is built to the highest standards of craftsmanship and design excellence.</p>
+<p class="text mb25" style="font-weight:bold;">Our philosophy revolves around quality, transparency, and trust — the pillars that guide every project we undertake. From exclusive villas and high-rise apartments to landmark commercial spaces, every Maybach Homes Property Group development is built to the highest standards of craftsmanship and design excellence.</p>
 
-<p style="font-weight:bold;">We collaborate with top architects, designers, and construction experts to bring to life spaces that are not only visually stunning but also sustainable and future-ready. With an unwavering focus on customer satisfaction, we ensure that every client experiences a seamless journey — from consultation to handover.
+<p class="text mb25" style="font-weight:bold;">We collaborate with top architects, designers, and construction experts to bring to life spaces that are not only visually stunning but also sustainable and future-ready. With an unwavering focus on customer satisfaction, we ensure that every client experiences a seamless journey — from consultation to handover.
 
 At Maybach Homes Property Group, we don’t just build properties — we craft lifestyles that embody sophistication, comfort, and luxury.
 
@@ -347,44 +347,32 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
 }
 </style>
 
-    <!-- CTA Banner -->
-    <section class="pt-0 pb-0">
-      <div class="cta-banner3 bgc-thm-light mx-auto maxw1600 pt100 pt60-lg pb90 pb60-lg bdrs24 position-relative overflow-hidden mx20-lg">
+    
+<section class="our-cta2 p0" style="overflow: hidden;">
+      <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">
+        <div class="img-box-5">
+          <img class="img-1 spin-right" src="uploadselement-1.png" alt="">
+        </div>
+        <div class="img-box-6">
+          <img class="img-1 spin-left" src="uploadselement-2.png" alt="">
+        </div>
+        <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+          <img src="uploadscta-img-1.png" alt="">
+        </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-lg-7 pl30-md pl15-xs wow fadeInRight" data-wow-delay="500ms">
-              <div class="mb30">
-                <h2 class="title text-capitalize">Why Choose Us </h2>
+            <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInUp;">
+              <div class="cta-style2">
+                <h2 class="cta-title">Need help? Talk to our expert</h2>
+                <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
+                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
               </div>
-              <div class="why-chose-list style2">
-                <div class="list-one d-flex align-items-start mb30">
-                  <span class="list-icon flex-shrink-0 fa fa-check"></span>
-                  <div class="list-content flex-grow-1 ml20">
-                    <h6 class="mb-1">Investment Opportunities </h6>
-                    <p class="text mb-0 fz15">We are here to assist you in finding successful real estate investment possibilities. In order to assist you in making wise investment decisions, our experts carefully investigate potential investments, assess market trends, and offer insightful analysis.</p>
-                  </div>
-                </div>
-                <div class="list-one d-flex align-items-start mb30">
-                  <span class="list-icon flex-shrink-0 fa fa-check"></span>
-                  <div class="list-content flex-grow-1 ml20">
-                    <h6 class="mb-1">Client Satisfaction </h6>
-                    <p class="text mb-0 fz15">We take great satisfaction in creating enduring connections with our clients. Your satisfaction is our first priority, and we work hard to provide outstanding service that satisfies your particular needs.</p>
-                  </div>
-                </div>
-                <div class="list-one d-flex align-items-start mb30">
-                  <span class="list-icon flex-shrink-0 fa fa-check"></span>
-                  <div class="list-content flex-grow-1 ml20">
-                    <h6 class="mb-1">Property Management</h6>
-                    <p class="text mb-0 fz15">No matter if the property is a single-family home, a multi-unit complex, or a business space, we are aware of the difficulties in managing them. By taking care of tenant vetting, rent collecting, property upkeep, and other daily duties, our property management services offer peace of mind.</p>
-                  </div>
-                </div>
-              </div>     
             </div>
           </div>
         </div>
       </div>
     </section>
-
     @include('user_layout.footer');
      
   <!-- Our CTA --> 

@@ -1,4 +1,4 @@
-@include('user_layout.header');
+@include('user_layout.header')
   <br>
 <br>
 <br>
@@ -542,11 +542,133 @@
       </div>
     </section>
 	
-	
+	<!-- Add SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Enquiry Form Section -->
+<section style="background-color: #000; color: #fff; padding: 20px 0;">
+  <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+    <h2 style="text-align: center; font-size: 28px; margin-bottom: 30px; color: #fff;">Enquiry Form</h2>
+    
+    <form id="enquiry-form" action="https://formspree.io/f/xjkanlqw" method="POST">
+      
+      <!-- Full Name -->
+      <div style="margin-bottom: 20px;">
+        <label for="name" style="display: block; margin-bottom: 8px; color: #fff;">Full Name</label>
+        <input type="text" id="name" name="name" required
+          style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;" />
+      </div>
+
+      <!-- Email Address -->
+      <div style="margin-bottom: 20px;">
+        <label for="email" style="display: block; margin-bottom: 8px; color: #fff;">Email Address</label>
+        <input type="email" id="email" name="email" required
+          style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;" />
+      </div>
+
+      <!-- Phone Number -->
+      <div style="margin-bottom: 20px;">
+        <label for="phone" style="display: block; margin-bottom: 8px; color: #fff;">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required
+          style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;" />
+      </div>
+
+      <!-- Budget Price -->
+      <div style="margin-bottom: 20px;">
+        <label for="budget" style="display: block; margin-bottom: 8px; color: #fff;">Budget Price</label>
+        <input type="text" id="budget" name="budget" placeholder="Enter your budget..."
+          style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;" />
+      </div>
+
+      <!-- Message -->
+      <div style="margin-bottom: 20px;">
+        <label for="message" style="display: block; margin-bottom: 8px; color: #fff;">Message</label>
+        <textarea id="message" name="message" rows="5" required
+          style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;"></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit"
+        style="width: 100%; padding: 12px; background-color: #fff; color: #000; font-size: 16px; border: none; border-radius: 4px; cursor: pointer;">
+        Submit Enquiry
+      </button>
+
+    </form>
+  </div>
+</section>
+
+
+
 	
   <!-- Our CTA --> 
-     
+     <section class="our-cta2 p0" style="overflow: hidden;">
+      <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">
+        <div class="img-box-5">
+          <img class="img-1 spin-right" src="uploadselement-1.png" alt="">
+        </div>
+        <div class="img-box-6">
+          <img class="img-1 spin-left" src="uploadselement-2.png" alt="">
+        </div>
+        <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+          <img src="uploadscta-img-1.png" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInUp;">
+              <div class="cta-style2">
+                <h2 class="cta-title">Need help? Talk to our expert</h2>
+                <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
+                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
    
 
-    @include('user_layout.footer');
+    @include('user_layout.footer')
+    <!-- AJAX Submission Script -->
+<script>
+  const form = document.getElementById('enquiry-form');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault(); // Prevent redirect
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Thank you!',
+          text: 'Your enquiry has been submitted successfully.',
+          confirmButtonColor: '#000'
+        });
+        form.reset(); // Reset form after submission
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong. Please try again!',
+        });
+      }
+    } catch (error) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Unable to submit form at this time.',
+      });
+    }
+  });
+</script>

@@ -1,5 +1,6 @@
-@include('user_layout.header');
+@include('user_layout.header')
 
+<br>
 <br>
 <br>
 <br>
@@ -456,7 +457,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p1details')}}"> <img class="w-100" src="uploads/p1.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2028-1-08</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p1details')}}">M3M Jewel Crest Avenue, Sector 97, Noida</a></h6>
                       <p class="list-text">Noida</p>
@@ -478,7 +479,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p2details')}}"> <img class="w-100" src="uploads/p2.png" alt=""></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                      
+                      <div class="list-price top">Handover: 2027-08-09</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
@@ -502,7 +503,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p3details')}}"> <img class="w-100" src="uploads/p3.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2025-12-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2028-07-18</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p3details')}}">Ekana Business Centre, Gomti Nagar</a></h6>
                       <p class="list-text">Gomti Nagar Extension, Lucknow</p>
@@ -524,7 +525,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p4details')}}"> <img class="w-100" src="uploads/p4.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2027-10-28</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p4details')}}">Sikka The Crown of Noida, Sector 143A</a></h6>
                       <p class="list-text">Sector 143A, Noida (Greater Noida Expressway)</p>
@@ -546,7 +547,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p5details')}}"> <img class="w-100" src="uploads/p5.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2028-02-12</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p5details')}}">Migsun 1 Destination, Sushant Golf City</a></h6>
                       <p class="list-text">Lucknow</p>
@@ -568,7 +569,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p6details')}}"> <img class="w-100" src="uploads/p6.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2027-12-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2027-08-22</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p6details')}}">Bhutani City Center 32, Sector 32, Noida</a></h6>
                       <p class="list-text">Noida</p>
@@ -590,7 +591,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p7details')}}"> <img class="w-100" src="uploads/p7.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                      
+                      <div class="list-price top">Handover: 2028-06-05</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
@@ -614,7 +615,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p8details')}}"> <img class="w-100" src="uploads/p8.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2025-06-30</div>                      
+                      <div class="list-price top">Handover: 2028-06-29</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
@@ -638,7 +639,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p9details')}}"> <img class="w-100" src="uploads/p9.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2026-04-30</div>                      
+                      <div class="list-price top">Handover: 2027-04-10</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
@@ -662,7 +663,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p10details')}}"> <img class="w-100" src="uploads/p10.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2026-06-30</div>                                         </div>
+                      <div class="list-price top">Handover: 2028-08-29</div>                                         </div>
                     <div class="list-content">
                       <h6 class="list-title"><a href="{{ asset('p10details')}}">Eldeco Whispers of Wonder (Wow)</a></h6>
                       <p class="list-text">Sector 22D, Yamuna Expressway Noida</p>
@@ -684,7 +685,7 @@
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
                      <a href="{{ asset('p11details')}}"> <img class="w-100" src="uploads/p11.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2026-06-30</div>                      
+                      <div class="list-price top">Handover: 2027-05-27</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
@@ -704,21 +705,22 @@
                 </div>		
 				
 				 	
-                <div class="col-sm-4">
+               <div class="col-sm-4">
                   <div class="listing-style1 projectssection">
                     <div class="list-thumb">
-                     <a href="{{ asset('p12details')}}"> <img class="w-100" src="uploads/p12.webp" alt=""></a>
-                      <div class="list-price top">Handover: 2023-09-30</div>                      
+                     <a href="{{ asset('p11details')}}"> <img class="w-100" src="uploads/p11.webp" alt=""></a>
+                      <div class="list-price top">Handover: 2027-05-27</div>                      
                     <span style="display: block;background: #F2DC85;position: absolute;right: 0px;color: #000;bottom: 10px;padding: 0px 10px;border-radius: 5px 0 0 5px;">Featured</span>
                                         </div>
                     <div class="list-content">
-                      <h6 class="list-title"><a href="{{ asset('p12details')}}">SPJ Vedatam, Sector 14, Gurgaon
+                      <h6 class="list-title"><a href="{{ asset('p11details')}}">SPJ Vedatam, Sector 14, Gurgaon</a></h6>
+                      <p class="list-text">Gurgaon</p>
                        
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
-                        <span class="project-type"><a href="{{ asset('p12details')}}">Gurgaon</a></span>
+                        <span class="project-type"><a href="{{ asset('p11details')}}">Off Plan</a></span>
                         <div class="icons d-flex align-items-center">
-                          <a href="{{ asset('p12details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> SPJ Vedatam</a>
+                          <a href="{{ asset('p11details')}}" style="padding: 5px 0;line-height: 22px;"><i class="fa fa-map-marker"></i> SPJ Vedatam</a>
                          
                         </div>
                       </div>
@@ -726,6 +728,7 @@
                   </div>
                 </div>		
 				
+				 	
 					
 						
 			 
@@ -769,4 +772,4 @@
      
 
    
- @include('user_layout.footer');
+ @include('user_layout.footer')
