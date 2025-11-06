@@ -527,5 +527,91 @@ document.addEventListener('click', function(event) {
   }
 });
 </script>
+<!-- 🌟 Popup Image on Page Load -->
+<style>
+  /* Overlay Background */
+  #popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+  }
+
+  /* Show Popup */
+  #popup-overlay.show {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Popup Box */
+  #popup-box {
+    position: relative;
+    max-width: 450px;
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Popup Image */
+  #popup-box img {
+    width: 100%;
+    display: block;
+  }
+
+  /* Close Button */
+  #popup-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+  }
+
+  #popup-close:hover {
+    background: #32c36c; /* green hover for your brand */
+    color: #fff;
+  }
+</style>
+
+<!-- Popup HTML -->
+<div id="popup-overlay">
+  <div id="popup-box">
+    <button id="popup-close">×</button>
+    <img src="uploads/popup.jpg" alt="Welcome Offer" />
+  </div>
+</div>
+
+<script>
+  // Show popup after page loads
+  window.addEventListener("load", () => {
+    document.getElementById("popup-overlay").classList.add("show");
+  });
+
+  // Close popup when clicking X
+  document.getElementById("popup-close").addEventListener("click", () => {
+    document.getElementById("popup-overlay").classList.remove("show");
+  });
+</script>
 
 
