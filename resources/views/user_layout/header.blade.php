@@ -260,7 +260,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       </div>
     </div>
   </div>
-<!-- 🌟 Floating Chatbot for Maybach Homes -->
+<!-- 🌟 Floating Chatbot for Maybach Homes (Black & Gold Theme + Intent Skip Logic) -->
 <style>
   #chatbot-button {
     position: fixed;
@@ -272,7 +272,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     width: 70px;
     height: 70px;
     cursor: pointer;
-    padding: 0;
     z-index: 9999;
   }
   #chatbot-button img {
@@ -280,71 +279,103 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+    transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
   }
   #chatbot-button img:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.9);
   }
+
   #chatbot-window {
     position: fixed;
     bottom: 110px;
     left: 25px;
     width: 350px;
     max-height: 550px;
-    background: #fff;
+    background: #000;
+    border: 2px solid #d4af37;
     border-radius: 15px;
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.2);
     display: none;
     flex-direction: column;
     overflow: hidden;
     z-index: 9999;
   }
+
   #chatbot-header {
-    background: #000;
-    color: #fff;
+    background: linear-gradient(90deg, #000, #1a1a1a);
+    color: #ffd700;
     padding: 12px;
     font-weight: bold;
     text-align: center;
+    border-bottom: 1px solid #ffd700;
+    letter-spacing: 0.5px;
   }
+
   #chatbot-messages {
     flex: 1;
-    padding: 10px;
+    padding: 12px;
     overflow-y: auto;
     font-size: 14px;
+    color: #fff;
   }
+
   .bot-msg,
   .user-msg {
     margin: 8px 0;
-    padding: 8px 12px;
+    padding: 10px 14px;
     border-radius: 10px;
     max-width: 80%;
     line-height: 1.4;
   }
+
   .bot-msg {
-    background: #f2f2f2;
+    background: rgba(255, 215, 0, 0.1);
+    color: #ffd700;
+    border: 1px solid rgba(255, 215, 0, 0.3);
     align-self: flex-start;
   }
+
   .user-msg {
-    background: #000;
-    color: #fff;
+    background: linear-gradient(90deg, #ffd700, #b8860b);
+    color: #000;
+    font-weight: 500;
     align-self: flex-end;
   }
+
   .option-btn {
     display: inline-block;
-    margin: 5px 0;
+    margin: 5px 3px;
     padding: 8px 12px;
-    background-color: #000;
-    color: #fff;
+    background-color: #1a1a1a;
+    color: #ffd700;
+    border: 1px solid #ffd700;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
   }
+
   .option-btn:hover {
-    background-color: #444;
+    background-color: #ffd700;
+    color: #000;
   }
-  #chatbot-input {
-    display: none;
-    border-top: 1px solid #ddd;
+
+  .swal2-popup {
+    background-color: #000 !important;
+    border: 1px solid #d4af37;
+    color: #ffd700 !important;
+  }
+  .swal2-input, .swal2-select {
+    border: 1px solid #d4af37 !important;
+    background: #111 !important;
+    color: #ffd700 !important;
+  }
+  .swal2-confirm {
+    background-color: #d4af37 !important;
+    color: #000 !important;
+    border-radius: 5px !important;
   }
 </style>
 
@@ -370,11 +401,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   let step = 0;
   let formData = {};
 
+  // Removed "Are you looking to Buy, Rent, or Invest?" question
   const questions = [
     { text: "Hi there! 👋 Welcome to Maybach Homes Property Group — India’s trusted name in luxury real estate. Can I help you find your dream property today?", options: ["Yes", "No"] },
     { text: "What type of property are you interested in?", options: ["Residential Apartment", "Villa", "Commercial Property", "Plot/Land"] },
     { text: "Which location or city are you looking in?", options: ["Gurgaon", "Noida", "Greater Noida", "Delhi"] },
-    { text: "Are you looking to Buy, Rent, or Invest?", options: ["Buy", "Rent", "Invest"] },
     { text: "What is your budget range?", options: ["₹50L–1Cr", "₹1–3Cr", "₹3–5Cr", "₹5Cr+"] },
     { text: "When do you plan to make your Purchase/Rent/Buy?", options: ["Immediately", "Within 3 months", "3–6 months", "After 6 months"] },
     { text: "Do you need home loan assistance or financial guidance?", options: ["Yes", "No"] },
@@ -382,19 +413,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     { text: "Would you like to schedule a free consultation call with our real estate expert?", options: ["Yes", "No"] }
   ];
 
-  // Modified nextQuestion() logic for Rent flow
   function nextQuestion() {
-    // If the user selected Rent at step 3, show extra rent-specific options
-    if (step === 4 && formData.q_4 === "Rent") {
+    // Handle Rent-specific flow
+    if (formData.intent === "Rent" && step === 3) {
       botMessage("What is your monthly rental budget?");
       addOptions(["<₹25,000", "₹25,000–₹50,000", ">₹50,000"]);
-      step++; // Skip the budget question (step 4, now 5)
+      step++;
       return;
     }
 
-    // After rent budget, jump to question 6
-    if (step === 5 && formData.q_4 === "Rent") {
-      step = 6;
+    // Skip loan question if Rent
+    if (formData.intent === "Rent" && step === 5) {
+      step++;
     }
 
     if (step < questions.length) {
@@ -402,7 +432,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
       addOptions(questions[step].options);
     } else {
       botMessage(`Thank you, ${formData.name || "there"}! 🎉 
-        Our expert advisor will contact you shortly with the best property options in your preferred location and budget.`);
+        Our expert advisor will contact you shortly with the best ${formData.intent.toLowerCase()} options in your preferred location and budget.`);
       sendDataToFormspree();
       setTimeout(() => {
         Swal.fire("✅ Thank you!", "Your details have been received. We’ll reach out soon.", "success");
@@ -437,16 +467,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     messagesDiv.appendChild(msg);
     formData[`q_${step + 1}`] = response;
 
-    // If first question is "No", end conversation immediately
     if (step === 0 && response === "No") {
-      botMessage(`Totally fine 😊 Thank you for visiting Maybach Homes! If you ever wish to explore luxury properties, we’re here to help. Have a wonderful day! 🌟`);
+      botMessage(`Totally fine 😊 Thank you for visiting Maybach Homes! Have a wonderful day! 🌟`);
       return;
     }
 
     step++;
-    setTimeout(() => {
-      nextQuestion();
-    }, 500);
+    setTimeout(nextQuestion, 500);
   }
 
   function startChat() {
@@ -456,7 +483,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
         <form id="chatbotForm" action="https://formspree.io/f/xjkanlqw" method="POST">
           <input name="name" class="swal2-input" required placeholder="Enter your Name">
           <input name="phone" class="swal2-input" type="tel" required placeholder="Enter Phone Number">
-          <select name="intent" class="swal2-input" required>
+          <select name="intent" class="swal2-select" required>
             <option>Select your Interest</option>
             <option value="Buy">Buy</option>
             <option value="Rent">Rent</option>
@@ -485,7 +512,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
   chatbotButton.addEventListener("click", startChat);
 </script>
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
