@@ -71,10 +71,10 @@
                   <div class="link-style1 mb-3">
                     <h6 class="text-white mb25">Discover</h6>
                     <ul class="ps-0">
-                      <li><a href="{{ asset('projects')}}">Noida</a></li>
-                      <li><a href="{{ asset('projects')}}">Gurgaon</a></li>
-                      <li><a href="{{ asset('projects')}}">Delhi</a></li>
-                      <li><a href="{{ asset('projects')}}">Greater Noida</a></li>
+                      <li><a href="#">Noida</a></li>
+                      <li><a href="#">Gurgaon</a></li>
+                      <li><a href="#">Delhi</a></li>
+                      <li><a href="#">Greater Noida</a></li>
 					  <!-- <li><a href="{{ asset('projects')}}">Bhopal</a></li> -->
                     </ul>
                   </div>

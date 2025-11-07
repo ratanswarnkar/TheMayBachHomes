@@ -40,17 +40,17 @@
     .founder-card {
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-start;
+      /* align-items: flex-start; */
       justify-content: center;
       gap: 40px;
       background: #f9f9f9;
-      padding: 40px;
+      /* padding: 40px; */
       border-radius: 20px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     }
 
     .founder-image {
-      flex: 1 1 300px;
+      /* flex: 1 1 300px; */
       text-align: center;
     }
 

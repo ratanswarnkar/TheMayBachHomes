@@ -26,7 +26,7 @@
         <p>Human Resources</p>
       </div>
       <div class="member">
-        <img src="images/manager.png" alt="Manager">
+        <img src="images/mannu.png" alt="Manager">
         <h3>Mr. Sameer Yadav</h3>
         <p>Business Development Manager</p>
       </div>
@@ -69,7 +69,7 @@
           <img class="img-1 spin-left" src="uploadselement-2.png" alt="">
         </div>
         <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
-          <img src="uploadscta-img-1.png" alt="">
+          <img src="uploads/cta-img-1.png" alt="">
         </div>
         <div class="container">
           <div class="row">
@@ -77,7 +77,7 @@
               <div class="cta-style2">
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
-                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a><br><br>
 				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
               </div>
             </div>

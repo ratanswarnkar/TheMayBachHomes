@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10">
-        <h1 class="fw-bold display-5 mb-3" style="color:#b8860b;">Build Your Career With Maybach Homes</h1>
+        <h1 class="fw-bold display-5 mb-3" style="color:#b8860b;">Build Your Career With Maybach Homes Property Group</h1>
         <p class="lead" style="color:#f1f1f1; max-width:700px;">
           Join us on this exciting journey as we shape the future of real estate with innovation, passion, and integrity.
         </p>
@@ -18,7 +18,7 @@
 <section class="jobs-intro" style="background:#0b0b0b; color:#fff; padding:30px 0;">
   <div class="container text-center">
     <h2 class="fw-bold mb-2" style="color:#b8860b;">Current Job Openings</h2>
-    <p style="color:#dcdcdc; max-width:900px; margin:auto;">Explore exciting career opportunities at Maybach Homes — join our fast-growing, premium real estate team.</p>
+    <p style="color:#dcdcdc; max-width:900px; margin:auto;">Explore exciting career opportunities at Maybach Homes Property Group — join our fast-growing, premium real estate team.</p>
   </div>
 </section>
 
@@ -28,15 +28,15 @@
     <div class="row align-items-center">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <h3 class="fw-bold mb-3" style="color:#b8860b;">We’re Hiring | Tele Sales Executive – Real Estate Division</h3>
-        <p><strong>📍 Location:</strong> Maybach Homes India</p>
+        <p><strong>📍 Location:</strong> Maybach Homes Property Group India</p>
       
 
-        <p>At Maybach Homes, we redefine luxury real estate with excellence, integrity, and innovation. Join our dynamic team and be part of a brand where <em>“Luxury Meets Lifestyle.”</em></p>
+        <p>At Maybach Homes Property Group, we redefine luxury real estate with excellence, integrity, and innovation. Join our dynamic team and be part of a brand where <em>“Luxury Meets Lifestyle.”</em></p>
 
         <h6 class="fw-semibold mt-4" style="color:#b8860b;">Role Overview</h6>
         <ul>
           <li>Handle inbound & outbound calls with potential buyers/investors</li>
-          <li>Present Maybach Homes projects with clarity</li>
+          <li>Present Maybach Homes Property Group projects with clarity</li>
           <li>Build & maintain client relationships</li>
           <li>Achieve sales targets and record leads in CRM</li>
         </ul>
@@ -222,7 +222,7 @@
           <img class="img-1 spin-left" src="uploadselement-2.png" alt="">
         </div>
         <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
-          <img src="uploadscta-img-1.png" alt="">
+          <img src="uploads/cta-img-1.png" alt="">
         </div>
         <div class="container">
           <div class="row">
@@ -230,7 +230,7 @@
               <div class="cta-style2">
                 <h2 class="cta-title">Need help? Talk to our expert</h2>
                 <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
-                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a>
+                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a><br><br>
 				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
               </div>
             </div>
