@@ -369,7 +369,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent1-properties')}}"><img class="w-100" src="uploads/r1.jpg" alt=""></a>
-					   <div class="list-price">INR 20,000 per month </div>
+					   <div class="list-price">INR 20,000 </div>
 	                   
                     </div>
                     <div class="list-content">
@@ -397,7 +397,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent2-properties')}}"><img class="w-100" src="uploads/r2.jpg" alt=""></a>
-					   <div class="list-price">INR 27,000 per month </div>
+					   <div class="list-price">INR 27,000 </div>
 	                   
                     </div>
                     <div class="list-content">
@@ -425,7 +425,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent3-properties')}}"><img class="w-100" src="uploads/r3.jpg" alt=""></a>
-					   <div class="list-price">INR  42,000 per month </div>
+					   <div class="list-price">INR  42,000 </div>
 	                   
                     </div>
                     <div class="list-content">
@@ -453,7 +453,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent4-properties')}}"><img class="w-100" src="uploads/r4.jpg" alt=""></a>
-					   <div class="list-price">INR 32,000 per month </div>
+					   <div class="list-price">INR 32,000 </div>
 	                   
                     </div>
                     <div class="list-content">
@@ -509,7 +509,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent6-properties')}}"><img class="w-100" src="uploads/r6.jpg" alt=""></a>
-					   <div class="list-price">INR  45000 Per Month </div>
+					   <div class="list-price">INR  45000 </div>
 	                   
                     </div>
                     <div class="list-content">

@@ -8,13 +8,13 @@
     <div class="property-slider">
       <div class="slider-wrapper">
         <div class="slide active">
-          <img src="{{ asset('uploads/c1c.avif') }}" alt="Office Space Image 1">
+          <img src="{{ asset('uploads/c1c.jpeg') }}" alt="Office Space Image 1">
         </div>
         <div class="slide">
-          <img src="{{ asset('uploads/c1a.avif') }}" alt="Office Space Image 2">
+          <img src="{{ asset('uploads/c1a.jpeg') }}" alt="Office Space Image 2">
         </div>
         <div class="slide">
-          <img src="{{ asset('uploads/c1b.avif') }}" alt="Office Space Image 3">
+          <img src="{{ asset('uploads/c1b.jpeg') }}" alt="Office Space Image 3">
         </div>
       
 

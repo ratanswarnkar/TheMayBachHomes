@@ -318,7 +318,9 @@ public function villa5(){
 public function villa6(){
     return view('/villa/villas6');
 }
-
+public function buy_property(){
+    return view('buy_property');
+}
 
 }
 

@@ -277,7 +277,7 @@
               <div class="iconbox-content">
                 <h4 class="title">Buy a property</h4>
                 <p class="text">Discover your dream home with us - buy a property that suits your needs and desires!</p>
-                <a href="{{ asset('/villa-properties')}}" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
+                <a href="{{ asset('/buy-property')}}" class="ud-btn btn-white2">Find a home<i class="fal fa-arrow-right-long"></i></a>              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">

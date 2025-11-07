@@ -8,20 +8,11 @@
     <div class="property-slider">
       <div class="slider-wrapper">
         <div class="slide active">
-          <img src="{{ asset('uploads/c3a.avif') }}" alt="Bhutani Grandthum Office Space 1">
+          <img src="{{ asset('uploads/c3a.jpeg') }}" alt="Bhutani Grandthum Office Space 1">
         </div>
         <div class="slide">
-          <img src="{{ asset('uploads/c3b.avif') }}" alt="Bhutani Grandthum Office Space 2">
-        </div>
-        <div class="slide">
-          <img src="{{ asset('uploads/c3c.avif') }}" alt="Bhutani Grandthum Office Space 3">
-        </div>
-        <div class="slide">
-          <img src="{{ asset('uploads/c3d.avif') }}" alt="Bhutani Grandthum Office Space 4">
-        </div>
-        <div class="slide">
-          <img src="{{ asset('uploads/c3e.avif') }}" alt="Bhutani Grandthum Office Space 5">
-        </div>
+          <img src="{{ asset('uploads/c3b.jpeg') }}" alt="Bhutani Grandthum Office Space 2">
+</div>
        
 
         <!-- Slider Buttons -->

@@ -8,14 +8,12 @@
     <div class="property-slider">
       <div class="slider-wrapper">
         <div class="slide active">
-          <img src="{{ asset('uploads/c2a.avif') }}" alt="Shop Image 1">
+          <img src="{{ asset('uploads/c2a.jpeg') }}" alt="Shop Image 1">
         </div>
         <div class="slide">
-          <img src="{{ asset('uploads/c2b.avif') }}" alt="Shop Image 2">
+          <img src="{{ asset('uploads/c2b.jpeg') }}" alt="Shop Image 2">
         </div>
-        <div class="slide">
-          <img src="{{ asset('uploads/c2c.avif') }}" alt="Shop Image 3">
-        </div>
+       
         
 
         <!-- Slider Buttons -->
