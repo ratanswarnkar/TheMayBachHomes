@@ -601,19 +601,17 @@ document.addEventListener('click', function(event) {
 <script>
   // Run after page loads
   window.addEventListener("load", () => {
-    // ✅ Show popup only if on Home Page AND not shown before
+    // ✅ Show popup only if user is on the Home Page
+    const path = window.location.pathname;
     const isHomePage =
-      window.location.pathname === "/" ||
-      window.location.pathname === "home" ||
-      window.location.pathname === "/home.blade.php";
+      path === "/" || path.endsWith("/home") || path.endsWith("/home.blade.php");
 
-    if (isHomePage && !localStorage.getItem("popupShown")) {
+    if (isHomePage) {
       document.getElementById("popup-overlay").classList.add("show");
-      localStorage.setItem("popupShown", "true");
     }
   });
 
-  // Close popup
+  // Close popup when clicking X
   document.getElementById("popup-close").addEventListener("click", () => {
     document.getElementById("popup-overlay").classList.remove("show");
   });
