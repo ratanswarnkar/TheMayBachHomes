@@ -527,7 +527,7 @@ document.addEventListener('click', function(event) {
   }
 });
 </script>
-<!-- 🌟 Popup Image on Page Load -->
+<!-- 🌟 Popup Image on Home Page -->
 <style>
   /* Overlay Background */
   #popup-overlay {
@@ -536,7 +536,7 @@ document.addEventListener('click', function(event) {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* semi-transparent background */
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -546,13 +546,11 @@ document.addEventListener('click', function(event) {
     transition: opacity 0.4s ease, visibility 0.4s ease;
   }
 
-  /* Show Popup */
   #popup-overlay.show {
     visibility: visible;
     opacity: 1;
   }
 
-  /* Popup Box */
   #popup-box {
     position: relative;
     max-width: 450px;
@@ -562,13 +560,11 @@ document.addEventListener('click', function(event) {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
   }
 
-  /* Popup Image */
   #popup-box img {
     width: 100%;
     display: block;
   }
 
-  /* Close Button */
   #popup-close {
     position: absolute;
     top: 8px;
@@ -589,7 +585,7 @@ document.addEventListener('click', function(event) {
   }
 
   #popup-close:hover {
-    background: #32c36c; /* green hover for your brand */
+    background: #32c36c;
     color: #fff;
   }
 </style>
@@ -603,15 +599,25 @@ document.addEventListener('click', function(event) {
 </div>
 
 <script>
-  // Show popup after page loads
+  // Run after page loads
   window.addEventListener("load", () => {
-    document.getElementById("popup-overlay").classList.add("show");
+    // ✅ Show popup only if on Home Page AND not shown before
+    const isHomePage =
+      window.location.pathname === "/" ||
+      window.location.pathname === "home" ||
+      window.location.pathname === "/home.blade.php";
+
+    if (isHomePage && !localStorage.getItem("popupShown")) {
+      document.getElementById("popup-overlay").classList.add("show");
+      localStorage.setItem("popupShown", "true");
+    }
   });
 
-  // Close popup when clicking X
+  // Close popup
   document.getElementById("popup-close").addEventListener("click", () => {
     document.getElementById("popup-overlay").classList.remove("show");
   });
 </script>
+
 
 
