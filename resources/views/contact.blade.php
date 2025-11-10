@@ -154,7 +154,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 .contact-info {
   flex: 1;
   min-width: 320px;
-  padding: 40px 30px;
+  padding: 0px 30px;
 }
 .contact-info h2 {
   color: #d4af37;
