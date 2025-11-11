@@ -122,7 +122,7 @@
           </div>
         </div>
       </div>
-       
+      
     </section>
 <style>
 .team-section {

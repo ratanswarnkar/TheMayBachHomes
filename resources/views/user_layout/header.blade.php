@@ -594,7 +594,7 @@ document.addEventListener('click', function(event) {
   }
 
   #popup-box img {
-    width: 100%;
+    width: 88%;
     display: block;
   }
 
