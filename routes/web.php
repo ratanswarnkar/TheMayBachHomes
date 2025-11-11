@@ -124,7 +124,7 @@ Route::get('/villa6-properties',[LovinoController::class, 'villa6']);
 
 //buy a property
 Route::get('/buy-property',[LovinoController::class, 'buy_property']);
-
+Route::get('/calculator',[LovinoController::class, 'calculator']);
 //Admin Routes
 
 Route::middleware('admin')->prefix('admin')->group(function(){

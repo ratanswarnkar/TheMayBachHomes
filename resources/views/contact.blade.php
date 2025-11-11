@@ -64,11 +64,11 @@
 <section class="our-cta2 p0" style="overflow: hidden;">
   <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">
     <div class="img-box-5">
-      <img class="img-1 spin-right" src="uploads/cta-img-1.png" alt="">
+      <img class="img-1 spin-right" src="uploads/cta-img-11.png" alt="">
     </div>
-    <div class="img-box-6">
+    <!-- <div class="img-box-6">
       <img class="img-1 spin-left" src="uploads/cta-img-1.png" alt="">
-    </div>
+    </div> -->
     <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms">
       <img src="uploads/cta-img-1.png" alt="">
     </div>

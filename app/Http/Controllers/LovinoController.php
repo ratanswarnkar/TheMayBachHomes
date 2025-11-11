@@ -321,8 +321,9 @@ public function villa6(){
 public function buy_property(){
     return view('buy_property');
 }
-
+public function calculator(){
+    return view('calculator');
 }
 
-
+}
     

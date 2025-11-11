@@ -10122,7 +10122,7 @@ input:focus-visible {
 }
 
 .maxw1600 {
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 .maxw1800 {

@@ -41,12 +41,15 @@
       display: flex;
       flex-wrap: wrap;
       /* align-items: flex-start; */
+      align-items: center;
       justify-content: center;
       gap: 40px;
       background: #f9f9f9;
       /* padding: 40px; */
       border-radius: 20px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      flex-direction: column;
+      align-content:center;
     }
 
     .founder-image {
@@ -70,7 +73,7 @@
 
     .founder-info {
       flex: 2 1 400px;
-      text-align: left;
+      /* text-align: left; */
     }
 
     .founder-info h2 {

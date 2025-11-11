@@ -377,6 +377,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
     color: #000 !important;
     border-radius: 5px !important;
   }
+  /* Close button style */
+#close-chatbot {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+  background: transparent;
+  border: none;
+  color: #ffd700;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#close-chatbot:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* ensure header is positioned */
+#chatbot-header {
+  position: relative;
+}
+
 </style>
 
 <!-- Chatbot Trigger Button -->
@@ -386,7 +410,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
 
 <!-- Chatbot Window -->
 <div id="chatbot-window">
-  <div id="chatbot-header">Maybach Homes Assistant</div>
+  <div id="chatbot-header">
+  Maybach Homes Assistant
+  <button id="close-chatbot" title="Close Chat">×</button>
+</div>
+
   <div id="chatbot-messages"></div>
 </div>
 
@@ -511,6 +539,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
   }
 
   chatbotButton.addEventListener("click", startChat);
+  // Close button functionality
+document.getElementById("close-chatbot").addEventListener("click", function() {
+  document.getElementById("chatbot-window").style.display = "none";
+});
+
 </script>
 
 
@@ -616,6 +649,48 @@ document.addEventListener('click', function(event) {
     document.getElementById("popup-overlay").classList.remove("show");
   });
 </script>
+
+
+<!-- Floating EMI Calculator Button (Left Side) -->
+<a href="{{ asset('/calculator') }}" class="emi-float-btn" title="Open EMI & Area Calculator">
+  <img src="{{ asset('uploads/cal.png')}}" alt="EMI Calculator" />
+</a>
+
+<style>
+.emi-float-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 5px; /* 👈 moved from right to left */
+  background: #000;
+  border: 2px solid gold;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(255,215,0,0.5);
+  transition: 0.3s ease;
+  z-index: 9999;
+  animation: float 2s ease-in-out infinite;
+}
+
+.emi-float-btn img {
+  width: 38px;
+  height: 38px;
+  filter: brightness(1.2);
+}
+
+.emi-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(255,215,0,0.8);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+</style>
 
 
 
