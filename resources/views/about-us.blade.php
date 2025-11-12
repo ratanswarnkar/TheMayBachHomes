@@ -42,23 +42,89 @@
   <div class="body_content">
     <!-- Property All Lists -->
       <!-- UI Elements Sections -->
-    <section class="breadcumb-section2 p-0" style="background-image: url(uploads/about_banner.png);">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="breadcumb-style1">
-              <h2 class="title" display: flex;
-  flex-wrap: wrap;
-align-content: stretch;
-justify-content: space-evenly; flex-direction: row;
-    align-items: flex-end; style="font-size:43px">ABOUT US</h2>
- 
-              <p style="font-weight: bold;letter-spacing: 1px;"></p>
-            </div>
-          </div>
+<section class="breadcumb-section2" style="background-color: #000; padding: 44px 0 40px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breadcumb-style1" style="text-align: center;">
+          <h2 class="title" style="font-size: 46px; color: #fff; letter-spacing: 2px; font-weight: 600; margin-top: 80px;">
+            ABOUT US
+          </h2>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+
+<div style="width: 100%; height: 1px; background-color: #fff;"></div>
+<!-- Achievements / Stats Section -->
+<section class="achievements-section" style="background-color:#000; color:#d4af37; padding:80px 0; font-family:'Poppins',sans-serif;">
+  <div style="max-width:1100px; margin:0 auto; text-align:center;">
+    <h2 style="font-size:36px; margin-bottom:50px; color:#d4af37; letter-spacing:1px;">
+      OUR GLOBAL ACHIEVEMENTS
+    </h2>
+
+    <div class="achievements-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px;">
+
+      <!-- Box 1 -->
+      <div class="achievement-box">
+        <div style="font-size:50px; margin-bottom:20px;">🌍</div>
+        <h3>Over 6000+</h3>
+        <p>Clients Globally</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="achievement-box">
+        <div style="font-size:50px; margin-bottom:20px;">👥</div>
+        <h3>250+</h3>
+        <p>Employees Globally</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="achievement-box">
+        <div style="font-size:50px; margin-bottom:20px;">💰</div>
+        <h3>150 Million + USD</h3>
+        <p>In Commission Achieved</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+/* Achievement Box Styling */
+.achievement-box {
+  flex: 1 1 280px;
+  background-color: #111;
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+  padding: 40px 20px;
+  box-shadow: 0 0 15px rgba(212,175,55,0.3);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.achievement-box h3 {
+  font-size: 26px;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.achievement-box p {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+/* Hover Effect */
+.achievement-box:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 0 30px rgba(212,175,55,0.6);
+  background-color: #1a1a1a;
+  border-color: #fff;
+}
+</style>
+
 
     <!-- Our About Area -->
     <section class="our-about pb90">
@@ -112,7 +178,7 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
     </section>
 
     <section class="fullwidth-banner">
-  <img src="uploads/about.png" alt="About Maybach Homes" class="fullwidth-image">
+  <img src="uploads/about.png" alt="About Maybach Homes" style="width: 100%; display: flex;">
 </section>
  
    
@@ -264,7 +330,7 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
 
 .member img {
   width: 180px;
-  height: 200px;
+  height: 250px;
   border-radius: 10px;
   object-fit: cover;
   border: 3px solid gold;

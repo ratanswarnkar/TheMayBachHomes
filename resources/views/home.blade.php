@@ -1377,7 +1377,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 .member img {
   width: 180px;
-  height: 200px;
+  height: 250px;
   border-radius: 10px;
   object-fit: cover;
   border: 3px solid gold;

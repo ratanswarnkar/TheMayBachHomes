@@ -3,7 +3,7 @@
   <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between;">
 
     <!-- ✅ EMI CALCULATOR (LEFT) -->
-    <div style="flex: 1; min-width: 320px; background: #111; border: 2px solid gold; border-radius: 15px; padding: 25px; box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);">
+    <div class="calc-box">
       <h2 style="text-align: center; color: gold; margin-bottom: 20px;">EMI Calculator</h2>
 
       <label>Loan Amount (₹)</label><br>
@@ -21,7 +21,7 @@
     </div>
 
     <!-- ✅ AREA UNIT CONVERTER (RIGHT) -->
-    <div style="flex: 1; min-width: 320px; background: #111; border: 2px solid gold; border-radius: 15px; padding: 25px; box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);">
+    <div class="calc-box">
       <h2 style="text-align: center; color: gold; margin-bottom: 20px;">Area Unit Converter</h2>
 
       <label>Enter Area</label><br>
@@ -57,6 +57,54 @@
     </div>
   </div>
 </section>
+<style>
+/* Hoverable Box Styling (for EMI + Converter) */
+.calc-box {
+  flex: 1;
+  min-width: 320px;
+  background: #111;
+  border: 2px solid gold;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect: similar to Achievements section */
+.calc-box:hover {
+  transform: translateY(-10px) scale(1.03);
+  background-color: #1a1a1a;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+  border-color: #fff;
+}
+</style>
+
+<section class="our-cta2 p0" style="overflow: hidden;">
+      <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">
+        <div class="img-box-5">
+          <img class="img-1 spin-right" src="uploadselement-1.png" alt="">
+        </div>
+        <div class="img-box-6">
+          <img class="img-1 spin-left" src="uploadselement-2.png" alt="">
+        </div>
+        <div class="cta-style2 d-none d-lg-block wow fadeInRight" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInRight;">
+          <img src="uploads/cta-img-1.png" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInUp;">
+              <div class="cta-style2">
+                <h2 class="cta-title">Need help? Talk to our expert</h2>
+                <p class="cta-text">"Join us on this exciting journey as we shape the future of Real Estate"</p>
+                <a href="contact.php" class="ud-btn btn-dark mt10">Learn More<i class="fa fa-long-arrow-right"></i></a><br><br>
+				<a href="tel: +91 8588844441" class="ud-btn btn-dark"><span class="fa fa-mobile vam pe-2"></span>+91 8588844441</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 <!-- ✅ JavaScript for Calculations -->
 <script>

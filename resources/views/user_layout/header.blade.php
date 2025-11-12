@@ -627,7 +627,7 @@ document.addEventListener('click', function(event) {
 <div id="popup-overlay">
   <div id="popup-box">
     <button id="popup-close">×</button>
-    <img src="uploads/popup.jpg" alt="Welcome Offer" />
+    <img src="uploads/popup.jpeg" alt="Welcome Offer" />
   </div>
 </div>
 
