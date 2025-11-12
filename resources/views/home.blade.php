@@ -1273,7 +1273,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
       <div class="member">
         <img src="images/rahul.jpeg" alt="Real Estate Expert">
-        <h3>Rahul Tiwari</h3>
+        <h3>Rahul Jha</h3>
         <p>Digital Marketing Expert</p>
       </div>
     </div>
