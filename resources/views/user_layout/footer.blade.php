@@ -25,7 +25,7 @@
 				<div class="col-auto">
                   <div class="contact-info">
                     <p class="info-title">Address</p>
-                    <h6 class="info-mail"><a href="#">A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306</a></h6>
+                    <h6 class="info-mail"><a href="#">A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201318</a></h6>
                   </div>
                 </div>
               </div>

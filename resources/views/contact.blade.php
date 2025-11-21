@@ -18,7 +18,7 @@
       </p>
 
       <div class="info-box">
-        <p><strong>📍 Address:</strong> A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201306</p>
+        <p><strong>📍 Address:</strong> A -1314, Tower 3, NX ONE, TECH ZONE - 4, Amrapali Dream Valley, Greater Noida, Uttar Pradesh 201318</p>
         <p><strong>📞 Phone:</strong> +91-8588844441</p>
         <p><strong>✉️ Email:</strong> Info@maybach.homes</p>
       </div>
