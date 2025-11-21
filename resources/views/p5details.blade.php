@@ -3,7 +3,7 @@
 
   <!-- Project Title & Location -->
   <div class="project-header">
-    <h1>Migsun 1 Destination, Sushant Golf City, Lucknow</h1>
+    <h1 style="padding:40px;">Migsun 1 Destination, Sushant Golf City, Lucknow</h1>
     <p><strong>Location:</strong> Amar Shaheed Path, Sushant Golf City, Lucknow | <strong>RERA:</strong> 
       <a href="https://www.up-rera.in/projects" target="_blank">UPRERAPRJ589752/04/2024</a>
     </p>
@@ -220,7 +220,7 @@
   font-size: 16px;
   line-height: 1.8;
 }
-.project-details ul { padding-left: 25px; margin-bottom: 20px; }
+.project-details ul { padding-left: 4px; margin-bottom: 20px; }
 @media(max-width:1024px){
   .container-flex { flex-direction: column; }
   .slider, .emi-calculator { flex: 1 1 100%; }

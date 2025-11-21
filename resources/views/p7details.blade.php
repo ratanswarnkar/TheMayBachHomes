@@ -3,7 +3,7 @@
 
   <!-- Project Title & Location -->
   <div class="project-header">
-    <h1>M3M The Line, Sector 72, Noida</h1>
+    <h1 style="padding:40px;">M3M The Line, Sector 72, Noida</h1>
     <p><strong>Location:</strong> Sector 72, Noida | <strong>RERA:</strong> 
       <a href="https://www.up-rera.in/projects" target="_blank">UPRERAPRJ246070</a>
     </p>
@@ -219,7 +219,7 @@
   line-height: 1.8;
   color: #333;
 }
-.project-details ul { padding-left: 25px; margin-bottom: 20px; }
+.project-details ul { padding-left: 4px; margin-bottom: 20px; }
 @media(max-width:1024px){
   .container-flex { flex-direction: column; }
   .slider, .emi-calculator { flex: 1 1 100%; }

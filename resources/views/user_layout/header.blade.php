@@ -514,6 +514,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
           <select name="intent" class="swal2-select" required>
             <option>Select your Interest</option>
             <option value="Buy">Buy</option>
+            <option value="Sale">Sale</option>
             <option value="Rent">Rent</option>
             <option value="Invest">Invest</option>
           </select>

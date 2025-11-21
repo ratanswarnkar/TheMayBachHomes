@@ -3,7 +3,7 @@
 
   <!-- Project Title & Location -->
   <div class="project-header">
-    <h1>Ekana Business Centre</h1>
+    <h1 style="padding:40px;">Ekana Business Centre</h1>
     <p><strong>Location:</strong> Gomti Nagar Extension, Lucknow | <strong>RERA:</strong> 
       <a href="https://www.up-rera.in/projects" target="_blank">UPRERAPRJ546851/07/2025</a>
     </p>
@@ -212,7 +212,7 @@
   font-size: 16px;
   line-height: 1.8;
 }
-.project-details ul { padding-left: 25px; margin-bottom: 20px; }
+.project-details ul { padding-left: 4px; margin-bottom: 20px; }
 @media(max-width:1024px){
   .container-flex { flex-direction: column; }
   .slider, .emi-calculator { flex: 1 1 100%; }

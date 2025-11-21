@@ -3,7 +3,7 @@
 
   <!-- Project Title & Location -->
   <div class="project-header">
-    <h1>Bhutani City Center 32, Sector 32, Noida</h1>
+    <h1 style="padding:40px;">Bhutani City Center 32, Sector 32, Noida</h1>
     <p><strong>Location:</strong> Sector 32, Noida | <strong>RERA:</strong> Not Applicable</p>
   </div>
 
@@ -216,7 +216,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
-.project-details ul { padding-left: 25px; margin-bottom: 20px; }
+.project-details ul { padding-left: 4px; margin-bottom: 20px; }
 @media(max-width:1024px){
   .container-flex { flex-direction: column; }
   .slider, .emi-calculator { flex: 1 1 100%; }

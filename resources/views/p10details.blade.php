@@ -4,7 +4,7 @@
 
   <!-- Project Title & Location -->
   <div class="project-header">
-    <h1>Eldeco Whispers of Wonder (Wow), Sector 22D, Yamuna Expressway</h1>
+    <h1 style="padding:40px;">Eldeco Whispers of Wonder (Wow), Sector 22D, Yamuna Expressway</h1>
     <p><strong>Location:</strong> Sector 22D, Yamuna Expressway, Greater Noida | <strong>RERA:</strong> 
       <a href="https://www.up-rera.in/projects" target="_blank">UPRERAPRJ752382/09/2025</a>
     </p>
@@ -157,7 +157,7 @@
 .project-details { padding:50px 20px; background-color:#fff; color:#000; }
 .project-details h2 { color:#d4af37; font-weight:900; border-bottom:3px solid #d4af37; padding-bottom:5px; margin-top:40px; margin-bottom:20px; text-align:left; }
 .project-details p, .project-details ul { font-size:16px; line-height:1.8; color:#333; }
-.project-details ul { padding-left:25px; margin-bottom:20px; }
+.project-details ul { padding-left:4px; margin-bottom:20px; }
 @media(max-width:1024px){ .container-flex { flex-direction:column; } .slider, .emi-calculator { flex:1 1 100%; } }
 </style>
 

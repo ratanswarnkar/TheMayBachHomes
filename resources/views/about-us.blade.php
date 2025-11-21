@@ -79,7 +79,7 @@
             margin-top: 10px; 
             letter-spacing: 1px; 
             font-weight: 300;">
-            "Turnpay Your Property Dreams Into Reality"
+            "Turning Your Property Dreams Into Reality"
           </p>
 
         </div>
