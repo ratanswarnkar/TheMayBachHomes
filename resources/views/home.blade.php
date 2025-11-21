@@ -208,7 +208,7 @@
   </div>
 </a> -->
 
-              
+          
 
                 
      
@@ -1254,7 +1254,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 
 
-
+<div style="width: 100%; height: 1px; background-color: #000;"></div>
 
 <section id="team" class="team-section">
   <div class="container">
@@ -1293,39 +1293,64 @@ document.addEventListener("DOMContentLoaded", function() {
         <h3>Ratan Swarnkar</h3>
         <p>IT Expert</p>
       </div>
+       <div class="member">
+        <img src="images/rahul.jpeg" alt="Real Estate Expert">
+        <h3>Rahul Jha</h3>
+        <p>Digital Marketing Expert</p>
+      </div>
       <div class="member">
         <img src="images/parmu.jpeg" alt="Client Manager">
         <h3>Parminder Shokhal</h3>
         <p>IT Support</p>
       </div>
+     
+    </div>
+
+      <!-- Row 4 -->
+    <div class="team-row row-4">
       <div class="member">
-        <img src="images/rahul.jpeg" alt="Real Estate Expert">
-        <h3>Rahul Jha</h3>
-        <p>Digital Marketing Expert</p>
+        <img src="images/catty.jpeg" alt="Client Relationship Manager">
+        <h3>Caitline Yorke </h3>
+        <p>English <br> Real Estate agent</p>
+      </div>
+      <div class="member">
+        <img src="images/ally.jpeg" alt="Marketing Lead">
+        <h3>Elizabeth Frank </h3>
+       <p>Portuguese <br> Real Estate agent</p>
+      </div>
+      <div class="member">
+        <img src="images/hendy.jpeg" alt="Sales Executive">
+        <h3>Hend Ahmed </h3>
+        <p>Arabic <br> Real Estate agent</p>
+      </div>
+      <div class="member">
+        <img src="images/situ.jpeg" alt="Finance Advisor">
+        <h3>Sitorika Aziz</h3>
+       <p>Russian <br> Real Estate agent</p>
       </div>
     </div>
 
     <!-- Row 4 -->
     <div class="team-row row-4">
       <div class="member">
-        <img src="images/client_manager1.jpeg" alt="Client Relationship Manager">
-        <h3>Anshika Sharma</h3>
-        <p>Client Relationship Manager</p>
+        <img src="images/radha.jpeg" alt="Client Relationship Manager">
+        <h3>Radhika Gupta</h3>
+        <p>Tele Sales Executive</p>
       </div>
       <div class="member">
         <img src="images/neelam.jpeg" alt="Marketing Lead">
         <h3>Neelam Goswami</h3>
-        <p>Sales Executive</p>
+        <p>Tele Sales Executive</p>
       </div>
       <div class="member">
         <img src="images/muskan.jpeg" alt="Sales Executive">
         <h3>Muskan</h3>
-        <p>Tele Sales Agent</p>
+        <p>Tele Sales Executive</p>
       </div>
       <div class="member">
-        <img src="images/sonam.jpg" alt="Finance Advisor">
-        <h3>Sonam Chauhan</h3>
-        <p>Client Relationship Manager</p>
+        <img src="images/sany.jpeg" alt="Finance Advisor">
+        <h3>Saniya Praveen</h3>
+        <p>Tele Sales Executive</p>
       </div>
     </div>
 
@@ -1336,10 +1361,20 @@ document.addEventListener("DOMContentLoaded", function() {
         <h3>Rajat Khanna</h3>
         <p>Client Manager</p>
       </div>
+        <div class="member">
+        <img src="images/client_manager1.jpeg" alt="Client Relationship Manager">
+        <h3>Anshika Sharma</h3>
+        <p>Client Relationship Manager</p>
+      </div>
+      <div class="member">
+        <img src="images/sonam.jpg" alt="Finance Advisor">
+        <h3>Sonam Chauhan</h3>
+        <p>Client Relationship Manager</p>
+      </div>
       <div class="member">
         <img src="images/real_estate_expert.png" alt="Customer Support">
         <h3>Nishant Chauhan</h3>
-        <p>Senior Real Estate Expert</p>
+        <p>Client Manager</p>
       </div>
       <!-- <div class="member">
         <img src="images/photographer.jpeg" alt="Media Expert">
