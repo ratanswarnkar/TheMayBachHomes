@@ -177,7 +177,7 @@
 </p>
 
 <p>
-  <strong>Our Vision:</strong> To empower individuals and institutions to build sustainable wealth and achieve financial independence through real estate.
+  <strong>My Vision :</strong> To empower individuals and institutions to build sustainable wealth and achieve financial independence through real estate.
 </p>
 
       </div>

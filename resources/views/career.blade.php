@@ -86,7 +86,9 @@
         </ul>
 
         <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <p><strong>📞</strong> +91 8929522697</p>
         <a href="#apply-form" class="btn-apply" data-job="Real Estate Sales Agent">Apply Now</a>
+        
       </div>
 
       <div class="col-lg-6 text-center">
@@ -121,6 +123,7 @@
         </ul>
 
         <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <p><strong>📞</strong> +91 8929522697</p>
         <a href="#apply-form" class="btn-apply" data-job="Sales Manager">Apply Now</a>
       </div>
 
@@ -156,6 +159,7 @@
         </ul>
 
         <p class="mt-3"><strong>📩 Apply Now:</strong> <a href="mailto:info@maybach.homes" class="accent-link">info@maybach.homes</a></p>
+        <p><strong>📞</strong> +91 8929522697</p>
         <a href="#apply-form" class="btn-apply" data-job="HR & Administration Executive">Apply Now</a>
       </div>
 

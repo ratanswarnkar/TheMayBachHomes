@@ -38,7 +38,7 @@
 
      
   </div>
-<br>
+
 
     <!-- Property Half Map V4 -->
     <section class="bgc-black" style="padding: 0px 0 50px;">
@@ -49,7 +49,8 @@
             <div class="mt30">
               <div class="text-center text-xl-start">
                 <br>
-                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">Our Blogs</h4>                
+                <br>
+                <h4 class="mb-1" style="padding-bottom:20px; color:#fff;">OUR BLOGS</h4>                
               </div>
                
                

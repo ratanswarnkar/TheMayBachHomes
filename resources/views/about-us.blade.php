@@ -10,7 +10,7 @@
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="menubar" href="#menu"><img src="uploads/mobile-dark-nav-icon.svg" alt=""></a>
-            <a class="mobile_logo" href="index.php"><img src="uploads/logo.png" alt=""></a>
+            
        <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
         </div>
       </div>
@@ -42,7 +42,7 @@
   <div class="body_content">
     <!-- Property All Lists -->
       <!-- UI Elements Sections -->
-<section class="breadcumb-section2" style="background-color: #000; padding: 44px 0 40px 0;">
+<!-- <section class="breadcumb-section2" style="background-color: #000; padding: 44px 0 40px 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -50,11 +50,44 @@
           <h2 class="title" style="font-size: 46px; color: #fff; letter-spacing: 2px; font-weight: 600; margin-top: 80px;">
             ABOUT US
           </h2>
+          <P>Turn Your Property Dreams Into Reality</P>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<section class="breadcumb-section2" style="background-color: #000; padding: 44px 0 60px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breadcumb-style1" style="text-align: center;">
+
+          <!-- Main Title -->
+          <h2 class="title" style="
+            font-size: 46px; 
+            color: #fff; 
+            letter-spacing: 2px; 
+            font-weight: 600; 
+            margin-top: 80px;">
+            ABOUT US
+          </h2>
+
+          <!-- Slogan -->
+          <p style="
+            font-size: 20px; 
+            color: #f5d473; 
+            margin-top: 10px; 
+            letter-spacing: 1px; 
+            font-weight: 300;">
+            "Turnpay Your Property Dreams Into Reality"
+          </p>
+
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <div style="width: 100%; height: 1px; background-color: #fff;"></div>
@@ -132,7 +165,7 @@
         <div class="row wow fadeInUp" data-wow-delay="300ms">
           <div class="col-lg-6">
             <h2>We're on a Mission to Change <br class="d-none d-lg-block"> View of Real Estate Field.</h2>
-			<img src="uploads/aboutus.jpeg" style="width: 90%;">
+			<img src="uploads/aboutus.jpeg" style="width: 100%;">
           </div>
           <div class="col-lg-6">
             <p class="text mb25" style="font-weight:bold;">Maybach Homes Property Group – Where Luxury Meets Lifestyle
@@ -249,7 +282,7 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
         <p>Tele Sales Agent</p>
       </div>
       <div class="member">
-        <img src="images/sonam.jpeg" alt="Finance Advisor">
+        <img src="images/sonam.jpg" alt="Finance Advisor">
         <h3>Sonam Chauhan</h3>
         <p>Client Relationship Manager</p>
       </div>

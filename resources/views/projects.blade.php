@@ -13,7 +13,7 @@
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
             <a class="menubar" href="#menu"><img src="uploadsmobile-dark-nav-icon.svg" alt=""></a>
-            <a class="mobile_logo" href="index.php"><img src="uploads/logo.jpg" alt=""></a>
+            <!-- <a class="mobile_logo" href="index.php"><img src="uploads/logo.jpg" alt=""></a> -->
        <!--     <a href="page-login.php"><span class="icon fz18 fa fa-user-circle"></span></a>  -->        </div>
         </div>
       </div>

@@ -67,7 +67,7 @@
         <p>Tele Sales Agent</p>
       </div>
       <div class="member">
-        <img src="images/sonam.jpeg" alt="Finance Advisor">
+        <img src="images/sonam.jpg" alt="Finance Advisor">
         <h3>Sonam Chauhan</h3>
         <p>Client Relationship Manager</p>
       </div>

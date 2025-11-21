@@ -120,6 +120,21 @@
     font-size: 26px;
   }
 }
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
 
 
 
@@ -152,9 +167,18 @@
     <section class="home-banner-style1 p0">
 	
       <div class="home-style1">
-	  <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="">
-        <source src="uploads/LovinoRealEstate.mp4" type="video/mp4" />
-      </video>
+	  <!-- <video class="home-screen__step-1__bg__video" autoplay="" muted="" loop="" playsinline="">
+        <source src="{{ asset('https://youtu.be/-oOoTIuoL8M?si=_2-FzqCZ9rAki3S7')}}" type="video/mp4" />
+      </video> -->
+
+      <div class="video-background">
+    <iframe src="https://www.youtube.com/embed/-oOoTIuoL8M?autoplay=1&mute=1&controls=0&loop=1&playlist=-oOoTIuoL8M"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+    </iframe>
+</div>
+
         <!-- ✅ Add overlay below -->
   <div class="video-overlay"></div>
 
@@ -1296,7 +1320,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <p>Tele Sales Agent</p>
       </div>
       <div class="member">
-        <img src="images/sonam.jpeg" alt="Finance Advisor">
+        <img src="images/sonam.jpg" alt="Finance Advisor">
         <h3>Sonam Chauhan</h3>
         <p>Client Relationship Manager</p>
       </div>
