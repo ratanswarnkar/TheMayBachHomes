@@ -39,10 +39,10 @@
 
 /* Heading Styling */
 .box-heading {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -61,18 +61,18 @@
 .button-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 8px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .btn-link {
   display: inline-block;
-  padding: 14px 20px;
+  /* padding: 14px 20px; */
   background: rgba(255, 255, 255, 0.15);
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 8px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -188,7 +188,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-11 mx-auto">
-        <div class="inner-banner-style1 text-center" style="z-index:99;">
+        <div class="inner-banner-style1 text-center" style="padding-bottom:117px; z-index:99;">
   <h2 class="box-heading">OUR PROPERTIES</h2>
   <div class="button-grid">
     <a href="{{ asset('/commercial-properties') }}" class="btn-link">COMMERCIAL</a>
@@ -1094,7 +1094,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/female3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Sophia</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Kavya</h6>
                 </div>
               </div>
             </div>
@@ -1118,7 +1118,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/male3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mr. Ankit</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Aarav</h6>
                 </div>
               </div>
             </div>
@@ -1143,7 +1143,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/female3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Laila</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Ananya</h6>
                 </div>
               </div>
             </div>
@@ -1167,7 +1167,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/male3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mr. Rizwan</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Rudra</h6>
                 </div>
               </div>
             </div>
@@ -1192,7 +1192,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/male3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mr. Harish</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Vikram</h6>
                 </div>
               </div>
             </div>
@@ -1217,7 +1217,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/female3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Ms. Amelia</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Riya</h6>
                 </div>
               </div>
             </div>
@@ -1241,7 +1241,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <img src="uploads/male3.svg" alt="" style="width:50px;" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h6 class="mb-0" style="color: #fff !important;">Mr. Youssef</h6>
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Rahul</h6>
                 </div>
               </div>
             </div>
@@ -1310,7 +1310,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="team-row row-4">
       <div class="member">
         <img src="images/catty.jpeg" alt="Client Relationship Manager">
-        <h3>Caitline Yorke </h3>
+        <h3>Dlna Sharma </h3>
         <p>English <br> Real Estate agent</p>
       </div>
       <div class="member">
@@ -1376,16 +1376,16 @@ document.addEventListener("DOMContentLoaded", function() {
         <h3>Nishant Chauhan</h3>
         <p>Client Manager</p>
       </div>
-      <!-- <div class="member">
-        <img src="images/photographer.jpeg" alt="Media Expert">
-        <h3>Arjun Patel</h3>
-        <p>Media & Photography Head</p>
+     <div class="member">
+        <img src="images/sak.jpeg" alt="Media Expert">
+        <h3>Saksham Rana</h3>
+        <p> Legal Advisor</p>
       </div>
       <div class="member">
-        <img src="images/content.jpeg" alt="Content Specialist">
-        <h3>Neha Bansal</h3>
-        <p>Content Strategist</p>
-      </div> -->
+        <img src="images/ayush.jpeg" alt="Content Specialist">
+        <h3>Ayush Tyagi</h3>
+        <p>Legal Head</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1515,7 +1515,125 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 </style>
 
-    <!-- Our Partners --> 
+    <section class="services-section">
+  <div class="container">
+    <p class="service-subtitle">Service Overview</p>
+    <h2 class="service-title">End-to-End Property Management Services</h2>
+
+    <div class="services-grid">
+
+      <div class="service-box">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=600" alt="">
+        <h3>Verified Tenant Sourcing</h3>
+        <p>Instant tenant screening, background checks, and secure placement process.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=800" alt="">
+        <h3>Snagging to Interiors</h3>
+        <p>We prepare your property with painting, furnishing, snagging & interior setup.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=600" alt="">
+        <h3>One-Time Rental Service</h3>
+        <p>Ideal for property owners needing tenant placement without full management.</p>
+      </div>
+
+      <div class="service-box">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800" alt="">
+        <h3>Additional Services</h3>
+        <p>Painting • Legal • Renewals • Pest Control • Home Loan • Vastu • Maintenance.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<style>
+  .services-section {
+  background: #000;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-subtitle {
+  color: #c19227; /* Gold */
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.service-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.service-box {
+  background: #111;
+  padding: 18px;
+  border: 1px solid #c19227;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.service-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-box h3 {
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #c19227;
+}
+
+.service-box p {
+  font-size: 15px;
+  color: #e9e9e9;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+/* Hover Effect */
+.service-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 18px rgba(193, 146, 39, 0.5);
+  border-color: #ffd700;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-title {
+    font-size: 24px;
+  }
+}
+
+</style>
       <!-- Our Testimonials -->
     <section class="our-cta2 p0" style="overflow: hidden;">
       <div class="cta-banner2 bgc-thm maxw1600 mx-auto pt100 pt50-md pb85 pb50-md px30-md bdrs12 position-relative">

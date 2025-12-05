@@ -599,35 +599,70 @@ document.addEventListener('click', function(event) {
     display: block;
   }
 
+  #popup-box {
+  position: relative;
+  max-width: 450px;
+  width: 90%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+  background: #000; /* prevents background transparency gaps */
+}
+
+#popup-close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #FFD700;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+/* Icon Styling */
+#popup-close .close-icon {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Hover effect */
+#popup-close:hover {
+  background: #00c27a;
+  transform: scale(1.12) rotate(8deg);
+  box-shadow: 0 0 15px rgba(0, 194, 122, 0.8);
+}
+@media (max-width: 480px) {
   #popup-close {
-    position: absolute;
-    top: 8px;
-    right: 10px;
-    background: #fff;
-    color: #000;
-    font-weight: bold;
-    border: none;
-    border-radius: 50%;
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s;
+    width: 34px;
+    height: 34px;
+    top: -12px;
+    right: -12px;
   }
 
-  #popup-close:hover {
-    background: #32c36c;
-    color: #fff;
+  #popup-close .close-icon {
+    font-size: 18px;
   }
+}
+
+
 </style>
 
 <!-- Popup HTML -->
 <div id="popup-overlay">
   <div id="popup-box">
-    <button id="popup-close">×</button>
+   <button id="popup-close">
+  <span class="close-icon">✖</span>
+</button>
+
     <img src="uploads/popup.jpeg" alt="Welcome Offer" />
   </div>
 </div>

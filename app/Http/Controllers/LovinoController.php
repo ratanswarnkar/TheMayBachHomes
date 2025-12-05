@@ -21,7 +21,7 @@ class LovinoController extends Controller
     }
      public function sale()
     {
-        return view('sale');
+        return view('sale/sales');
     }
      public function rent()
     {

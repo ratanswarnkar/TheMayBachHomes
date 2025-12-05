@@ -268,8 +268,8 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
       <!-- Row 4 -->
     <div class="team-row row-4">
       <div class="member">
-        <img src="images/catty.jpeg" alt="Client Relationship Manager">
-        <h3>Caitline Yorke </h3>
+         <img src="images/catty.jpeg" alt="Client Relationship Manager">
+        <h3>Dlna Sharma </h3>
         <p>English <br> Real Estate agent</p>
       </div>
       <div class="member">
@@ -335,16 +335,16 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
         <h3>Nishant Chauhan</h3>
         <p>Client Manager</p>
       </div>
-      <!-- <div class="member">
-        <img src="images/photographer.jpeg" alt="Media Expert">
-        <h3>Arjun Patel</h3>
-        <p>Media & Photography Head</p>
+     <div class="member">
+        <img src="images/sak.jpeg" alt="Media Expert">
+        <h3>Saksham Rana</h3>
+        <p> Legal Advisor</p>
       </div>
       <div class="member">
-        <img src="images/content.jpeg" alt="Content Specialist">
-        <h3>Neha Bansal</h3>
-        <p>Content Strategist</p>
-      </div> -->
+        <img src="images/ayush.jpeg" alt="Content Specialist">
+        <h3>Ayush Tyagi</h3>
+        <p>Legal Head</p>
+      </div>
     </div>
   </div>
 </section>

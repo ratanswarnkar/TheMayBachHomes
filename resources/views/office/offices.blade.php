@@ -397,7 +397,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/office2-properties')}}"><img class="w-100" src="uploads/office2.jpg" alt=""></a>
-					   <div class="list-price">INR 57,000</div>
+					   <div class="list-price">INR 57,000 per month</div>
 	                   
                     </div>
                     <div class="list-content">
@@ -425,7 +425,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/office3-properties')}}"><img class="w-100" src="uploads/office3.jpg" alt=""></a>
-					   <div class="list-price">INR  95,000 </div>
+					   <div class="list-price">INR  95,000 per month</div>
 	                   
                     </div>
                     <div class="list-content">
@@ -453,7 +453,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/office4-properties')}}"><img class="w-100" src="uploads/office4.jpg" alt=""></a>
-					   <div class="list-price">INR 3.5 Lac</div>
+					   <div class="list-price">INR 3.5 Lac per month</div>
 	                   
                     </div>
                     <div class="list-content">
@@ -481,7 +481,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/office5-properties')}}"><img class="w-100" src="uploads/office5.jpg" alt=""></a>
-					   <div class="list-price">INR  25.5 L </div>
+					   <div class="list-price">INR  25.5 L per month</div>
 	                   
                     </div>
                     <div class="list-content">
