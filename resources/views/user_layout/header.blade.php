@@ -644,8 +644,8 @@ document.addEventListener('click', function(event) {
   #popup-close {
     width: 34px;
     height: 34px;
-    top: -12px;
-    right: -12px;
+    top: 0px;
+    right: 0px;
   }
 
   #popup-close .close-icon {

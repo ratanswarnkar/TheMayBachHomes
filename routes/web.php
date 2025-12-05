@@ -140,3 +140,14 @@ Route::prefix('admin')->group(function(){
   Route::get('/logout', [AdminController::class, 'logout'])->name('admin_logout');
 });
 
+
+
+
+
+
+// admin routes
+Route::get('/admin', function () {
+    return view('admin.layout');
+});
+
+

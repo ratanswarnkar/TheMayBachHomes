@@ -571,8 +571,8 @@
 
       <!-- Expected Rent -->
       <div style="margin-bottom: 20px;">
-        <label for="rent" style="display: block; margin-bottom: 8px; color: #fff;">Expected Rent</label>
-        <input type="text" id="rent" name="expected_rent" placeholder="Enter expected rent..."
+        <label for="rent" style="display: block; margin-bottom: 8px; color: #fff;">Asking Price</label>
+        <input type="text" id="rent" name="expected_rent" placeholder="Enter expected price..."
           style="width: 100%; padding: 12px; border: 1px solid #fff; background: transparent; color: #fff; border-radius: 4px;" />
       </div>
 
