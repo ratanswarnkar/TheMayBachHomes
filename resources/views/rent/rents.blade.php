@@ -509,7 +509,7 @@
                   <div class="listing-style1 salessection">
                     <div class="list-thumb">
                       <a href="{{ asset('/rent6-properties')}}"><img class="w-100" src="uploads/r6.jpg" alt=""></a>
-					   <div class="list-price">INR  45000 per month</div>
+					   <div class="list-price">INR  45,000 per month</div>
 	                   
                     </div>
                     <div class="list-content">
