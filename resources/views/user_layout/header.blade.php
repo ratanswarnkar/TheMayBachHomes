@@ -729,4 +729,85 @@ document.addEventListener('click', function(event) {
 </style>
 
 
+<!-- Font Awesome CDN (for icons) -->
+
+
+<style>
+    /* Floating social icons on left */
+    .social-fixed-left {
+        position: fixed;
+        top: 58%;
+        left: 10px;
+        transform: translateY(-50%);
+        z-index: 9999;
+    }
+
+    .social-fixed-left ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .social-fixed-left ul li {
+        margin: 5px 0;
+    }
+
+    .social-fixed-left ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 0 5px 5px 0;
+        transition: all 0.3s ease;
+    }
+
+    /* Different colors for each icon */
+    .social-fixed-left a.facebook   { background: #1877f2; }
+    .social-fixed-left a.instagram  { background: #e4405f; }
+    .social-fixed-left a.youtube    { background: #ff0000; }
+    .social-fixed-left a.linkedin   { background: #0a66c2; }
+
+    .social-fixed-left ul li a:hover {
+        padding-left: 8px; /* small slide effect */
+        opacity: 0.9;
+    }
+
+    /* Optional: hide on very small screens */
+    @media (max-width: 576px) {
+        .social-fixed-left {
+            display: none;
+        }
+    }
+</style>
+<div class="social-fixed-left">
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/share/1BXHdP7BGw/?mibextid=wwXIfr" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/_maybachhomes_?igsh=MWc1Nm5sMmYyMzJuNw%3D%3D&utm_source=qr" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://youtube.com/@maybachhomespropertygroup?si=ScR1UFbCKMdUeMd2" target="_blank" class="youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/maybach-homes-property-group?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="linkedin">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
 

@@ -268,7 +268,7 @@ Maybach Homes Property Group India – Crafting the future of luxury real estate
       <!-- Row 4 -->
     <div class="team-row row-4">
       <div class="member">
-         <img src="images/catty.jpeg" alt="Client Relationship Manager">
+         <img src="images/cattly.jpeg" alt="Client Relationship Manager">
         <h3>Dlna Sharma </h3>
         <p>English <br> Real Estate agent</p>
       </div>

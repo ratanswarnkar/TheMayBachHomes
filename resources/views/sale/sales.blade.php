@@ -462,7 +462,7 @@
                       <div class="list-meta d-flex align-items-center">
                         <!-- <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-bed"></span>5 bed</a>
                         <a href="property.php?id=249&title=Al Zahya"><span class="fa fa-shower"></span>7 bath</a> -->
-                        <a href="{{ asset('/sale4-properties')}}"><span class="fa fa-object-ungroup"></span>30 sq.ft</a>
+                        <a href="{{ asset('/sale4-properties')}}"><span class="fa fa-object-ungroup"></span>100 sq.ft</a>
                       </div>
                       <hr class="mt-2 mb-2">
                       <div class="list-meta2 d-flex justify-content-between align-items-center">
